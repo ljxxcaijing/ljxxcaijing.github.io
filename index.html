@@ -11,9 +11,9 @@
   <title> My New Hugo Site &middot; My New Hugo Site </title>
 
   
-  <link rel="stylesheet" href="http://replace-this-with-your-hugo-site.com/css/poole.css">
-  <link rel="stylesheet" href="http://replace-this-with-your-hugo-site.com/css/syntax.css">
-  <link rel="stylesheet" href="http://replace-this-with-your-hugo-site.com/css/hyde.css">
+  <link rel="stylesheet" href="http://caijing.github.io/css/poole.css">
+  <link rel="stylesheet" href="http://caijing.github.io/css/syntax.css">
+  <link rel="stylesheet" href="http://caijing.github.io/css/hyde.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
 
   
@@ -21,7 +21,7 @@
   <link rel="shortcut icon" href="/favicon.png">
 
   
-  <link href="http://replace-this-with-your-hugo-site.com/index.xml" rel="alternate" type="application/rss+xml" title="My New Hugo Site" />
+  <link href="http://caijing.github.io/index.xml" rel="alternate" type="application/rss+xml" title="My New Hugo Site" />
 </head>
 
 <body class=" ">
@@ -29,7 +29,7 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
-      <a href="http://replace-this-with-your-hugo-site.com/"><h1>My New Hugo Site</h1></a>
+      <a href="http://caijing.github.io/"><h1>My New Hugo Site</h1></a>
       <p class="lead">
       An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.
       </p>
@@ -37,6 +37,8 @@
 
     <ul class="sidebar-nav">
       <li><a href="/">Home</a> </li>
+      
+        <li><a href="/themes/hyde/archetypes/default/">  </a></li>
       
     </ul>
 
@@ -51,7 +53,7 @@
       
   <div class="post">
     <h1 class="post-title">
-      <a href="http://replace-this-with-your-hugo-site.com/post/first/">
+      <a href="http://caijing.github.io/post/first/">
         first
       </a>
     </h1>
@@ -67,6 +69,405 @@
 <li>bbb</li>
 <li>ccc</li>
 </ol>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="http://caijing.github.io/themes/hyde/LICENSE/">
+        
+      </a>
+    </h1>
+
+    <span class="post-date">Mon, Jan 1, 0001</span>
+
+    
+
+<h1 id="released-under-mit-license:37854d19817c792316d481f5beb93cc7">Released under MIT License</h1>
+
+<p>Copyright &copy; 2013 Mark Otto.</p>
+
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &ldquo;Software&rdquo;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+
+<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+
+<p>THE SOFTWARE IS PROVIDED &ldquo;AS IS&rdquo;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="http://caijing.github.io/themes/hyde/README/">
+        
+      </a>
+    </h1>
+
+    <span class="post-date">Mon, Jan 1, 0001</span>
+
+    
+
+<h1 id="hyde:04c6e90faac2675aa89e2176d2eec7d8">Hyde</h1>
+
+<p>Hyde is a brazen two-column <a href="http://hugo.spf13.com">hugo</a> theme based on the <a href="http://jekyllrb.com">Jekyll</a> theme of the same name.
+It pairs a prominent sidebar with uncomplicated content.</p>
+
+<p><img src="https://f.cloud.github.com/assets/98681/1831228/42af6c6a-7384-11e3-98fb-e0b923ee0468.png" alt="Hyde screenshot" /></p>
+
+<h2 id="contents:04c6e90faac2675aa89e2176d2eec7d8">Contents</h2>
+
+<ul>
+<li><a href="#options">Options</a>
+
+<ul>
+<li><a href="#sidebar-menu">Sidebar menu</a></li>
+<li><a href="#sticky-sidebar-content">Sticky sidebar content</a></li>
+<li><a href="#themes">Themes</a></li>
+<li><a href="#reverse-layout">Reverse layout</a></li>
+<li><a href="#disqus">Disqus</a></li>
+</ul></li>
+<li><a href="#author">Author</a></li>
+<li><a href="#ported-by">Ported by</a></li>
+<li><a href="#license">License</a></li>
+</ul>
+
+<h2 id="options:04c6e90faac2675aa89e2176d2eec7d8">Options</h2>
+
+<p>Hyde includes some customizable options, typically applied via classes on the <code>&lt;body&gt;</code> element.</p>
+
+<h3 id="sidebar-menu:04c6e90faac2675aa89e2176d2eec7d8">Sidebar menu</h3>
+
+<p>Create a list of nav links in the sidebar by assigning &ldquo;menu=main&rdquo; in the front matter.</p>
+
+<h3 id="sticky-sidebar-content:04c6e90faac2675aa89e2176d2eec7d8">Sticky sidebar content</h3>
+
+<p>By default Hyde ships with a sidebar that affixes it&rsquo;s content to the bottom of the sidebar. You can optionally disabled this by removing the <code>.sidebar-sticky</code> class from the sidebar&rsquo;s <code>.container</code>. Sidebar content will then normally flow from top to bottom.</p>
+
+<pre><code class="language-html">&lt;!-- Default sidebar --&gt;
+&lt;div class=&quot;sidebar&quot;&gt;
+  &lt;div class=&quot;container sidebar-sticky&quot;&gt;
+    ...
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Modified sidebar --&gt;
+&lt;div class=&quot;sidebar&quot;&gt;
+  &lt;div class=&quot;container&quot;&gt;
+    ...
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+<h3 id="themes:04c6e90faac2675aa89e2176d2eec7d8">Themes</h3>
+
+<p>Hyde ships with eight optional themes based on the <a href="https://github.com/chriskempson/base16">base16 color scheme</a>. Apply a theme to change the color scheme (mostly applies to sidebar and links).</p>
+
+<p><img src="https://f.cloud.github.com/assets/98681/1831229/42b0b354-7384-11e3-8462-31b8df193fe5.png" alt="Hyde in red" /></p>
+
+<p>There are eight themes available at this time.</p>
+
+<p><img src="https://f.cloud.github.com/assets/98681/1817044/e5b0ec06-6f68-11e3-83d7-acd1942797a1.png" alt="Hyde theme classes" /></p>
+
+<p>To use a theme, add the <code>themeColor</code> variable under <code>params</code>, like so:</p>
+
+<p><strong>TOML</strong></p>
+
+<pre><code class="language-toml">theme = &quot;hyde&quot;
+
+[params]
+  themeColor = &quot;theme-base-09&quot;
+</code></pre>
+
+<p><strong>YAML</strong></p>
+
+<pre><code class="language-yaml">theme: &quot;hyde&quot;
+
+params:
+  themeColor: &quot;theme-base-09&quot;
+</code></pre>
+
+<p>To create your own theme, look to the Themes section of <a href="https://github.com/poole/hyde/blob/master/public/css/hyde.css">included CSS file</a>. Copy any existing theme (they&rsquo;re only a few lines of CSS), rename it, and change the provided colors.</p>
+
+<h3 id="reverse-layout:04c6e90faac2675aa89e2176d2eec7d8">Reverse layout</h3>
+
+<p><img src="https://f.cloud.github.com/assets/98681/1831230/42b0d3ac-7384-11e3-8d54-2065afd03f9e.png" alt="Hyde with reverse layout" /></p>
+
+<p>To reverse page orientation, add the <code>layoutReverse</code> variable under <code>params</code>, like so:</p>
+
+<p><strong>TOML</strong></p>
+
+<pre><code class="language-toml">theme = &quot;hyde&quot;
+
+[params]
+  layoutReverse = true
+</code></pre>
+
+<p><strong>YAML</strong></p>
+
+<pre><code class="language-yaml">theme: &quot;hyde&quot;
+
+params:
+  layoutReverse: true
+</code></pre>
+
+<h3 id="disqus:04c6e90faac2675aa89e2176d2eec7d8">Disqus</h3>
+
+<p>You can optionally enable a comment system powered by Disqus for the posts. Simply add the variable <code>disqusShortname</code> to the <code>params</code> in your config file.</p>
+
+<p><strong>TOML</strong></p>
+
+<pre><code class="language-toml">[params]
+  disqusShortname = &quot;spf13&quot;
+</code></pre>
+
+<p><strong>YAML</strong></p>
+
+<pre><code class="language-yaml">params:
+  disqusShortname: &quot;spf13&quot;
+</code></pre>
+
+<h2 id="author:04c6e90faac2675aa89e2176d2eec7d8">Author</h2>
+
+<p><strong>Mark Otto</strong>
+- <a href="https://github.com/mdo">https://github.com/mdo</a>
+- <a href="https://twitter.com/mdo">https://twitter.com/mdo</a></p>
+
+<h2 id="ported-by:04c6e90faac2675aa89e2176d2eec7d8">Ported By</h2>
+
+<p><strong>Steve Francia</strong>
+- <a href="https://github.com/spf13">https://github.com/spf13</a>
+- <a href="https://twitter.com/spf13">https://twitter.com/spf13</a></p>
+
+<h2 id="license:04c6e90faac2675aa89e2176d2eec7d8">License</h2>
+
+<p>Open sourced under the <a href="LICENSE.md">MIT license</a>.</p>
+
+<p>&lt;3</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="http://caijing.github.io/themes/hyde/archetypes/default/">
+        
+      </a>
+    </h1>
+
+    <span class="post-date">Mon, Jan 1, 0001</span>
+
+    
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="http://caijing.github.io/themes/hyde/layouts/404/">
+        
+      </a>
+    </h1>
+
+    <span class="post-date">Mon, Jan 1, 0001</span>
+
+    partial "head.html" . }}
+<body class="{{ .Site.Params.themeColor }}">
+
+{{ partial "sidebar.html" . }}
+
+    <div class="content container">
+      <h1>404: Page not found</h1>
+        <p class="lead">Sorry, we've misplaced that URL or it's pointing to something that doesn't exist. <a href="{{ .Site.BaseURL }}">Head back home</a> to try finding it again.</p>
+    </div>
+
+  </body>
+</html>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="http://caijing.github.io/themes/hyde/layouts/_default/list/">
+        
+      </a>
+    </h1>
+
+    <span class="post-date">Mon, Jan 1, 0001</span>
+
+    partial "head.html" . }}
+<body class="{{ .Site.Params.themeColor }}">
+
+{{ partial "sidebar.html" . }}
+
+  <div class="content container">
+    <ul class="posts">
+        {{ range .Data.Pages }}
+        <li>
+          <span><a href="{{ .Permalink }}">{{ .Title }}</a> <time class="pull-right post-list">{{ .Date.Format "Mon, Jan 2, 2006" }}</time></span>
+        </li>
+        {{ end }}
+    </ul>
+  </div>
+</body>
+</html>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="http://caijing.github.io/themes/hyde/layouts/_default/single/">
+        
+      </a>
+    </h1>
+
+    <span class="post-date">Mon, Jan 1, 0001</span>
+
+    partial "head.html" . }}
+	<body class="{{ .Site.Params.themeColor }}">
+		{{ partial "sidebar.html" . }}
+
+		<div class="content container">
+			<div class="post">
+			 	<h1>{{ .Title }}</h1>
+			  <span class="post-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
+			      {{ .Content }}
+			</div>
+
+			{{ if and (isset .Site.Params "disqusShortname") (ne .Site.Params.disqusShortname "") }}
+				<h2>Comments</h2>
+				{{ partial "disqus" . }}
+			{{ end }}
+		</div>
+
+  </body>
+</html>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="http://caijing.github.io/themes/hyde/layouts/">
+        
+      </a>
+    </h1>
+
+    <span class="post-date">Mon, Jan 1, 0001</span>
+
+    partial "head.html" . }}
+<body class="{{ .Site.Params.themeColor }} {{if .Site.Params.layoutReverse}}layout-reverse{{end}}">
+
+{{ partial "sidebar.html" . }}
+
+    <div class="content container">
+<div class="posts">
+
+      {{ range .Data.Pages }}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ .Permalink }}">
+        {{ .Title }}
+      </a>
+    </h1>
+
+    <span class="post-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
+
+    {{ .Content }}
+  </div>
+  {{ end }}
+</div>
+</div>
+
+  </body>
+</html>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="http://caijing.github.io/themes/hyde/layouts/partials/disqus/">
+        
+      </a>
+    </h1>
+
+    <span class="post-date">Mon, Jan 1, 0001</span>
+
+    <div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = '{{ .Site.Params.disqusShortname }}'; // Required - Replace '<example>' with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="http://caijing.github.io/themes/hyde/layouts/partials/head/">
+        
+      </a>
+    </h1>
+
+    <span class="post-date">Mon, Jan 1, 0001</span>
+
+    <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"{{with .Site.LanguageCode}} xml:lang="{{.}}" lang="{{.}}"{{end}}>
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  {{ .Hugo.Generator }}
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title> {{ .Title }} &middot; {{ .Site.Title }} </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/poole.css">
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/syntax.css">
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/hyde.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  <!-- RSS -->
+  <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+</head>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="http://caijing.github.io/themes/hyde/layouts/partials/sidebar/">
+        
+      </a>
+    </h1>
+
+    <span class="post-date">Mon, Jan 1, 0001</span>
+
+    <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="{{ .Site.BaseURL }}"><h1>{{ .Site.Title }}</h1></a>
+      <p class="lead">
+      {{ with .Site.Params.description }} {{.}} {{ else }}An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.{{end}}
+      </p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li><a href="/">Home</a> </li>
+      {{ range .Site.Menus.main }}
+        <li><a href="{{.URL}}"> {{ .Name }} </a></li>
+      {{end}}
+    </ul>
+
+    <p>{{ with .Site.Params.copyright }}{{.}}{{ else }}&copy; {{.Now.Format "2006"}}. All rights reserved. {{end}}</p>
+  </div>
+</div>
 
   </div>
   
