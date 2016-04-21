@@ -2,54 +2,69 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://caijing.github.io/</loc>
-    <lastmod>2016-04-20T17:16:29+08:00</lastmod>
+    <loc>http://caijing.github.io/%0A%0Ahugo%20--theme=hugo-multi-bootswatch%20--baseUrl=http:/caijing.github.io/</loc>
+    <lastmod>2016-04-21T20:26:43+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://caijing.github.io/post/first/</loc>
-    <lastmod>2016-04-20T17:16:29+08:00</lastmod>
+    <loc>http://caijing.github.io/%0A%0Ahugo%20--theme=hugo-multi-bootswatch%20--baseUrl=http:/caijing.github.io/post/single/</loc>
+    <lastmod>2016-04-21T20:26:43+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://caijing.github.io/themes/hyde/LICENSE/</loc>
+    <loc>http://caijing.github.io/%0A%0Ahugo%20--theme=hugo-multi-bootswatch%20--baseUrl=http:/caijing.github.io/post/two/</loc>
+    <lastmod>2016-04-21T20:12:12+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://caijing.github.io/themes/hyde/README/</loc>
+    <loc>http://caijing.github.io/%0A%0Ahugo%20--theme=hugo-multi-bootswatch%20--baseUrl=http:/caijing.github.io/content/welcome/</loc>
+    <lastmod>2015-09-23T16:30:37+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://caijing.github.io/themes/hyde/archetypes/default/</loc>
+    <loc>http://caijing.github.io/%0A%0Ahugo%20--theme=hugo-multi-bootswatch%20--baseUrl=http:/caijing.github.io/post/first/</loc>
+    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://caijing.github.io/themes/hyde/layouts/404/</loc>
+    <loc>http://caijing.github.io/%0A%0Ahugo%20--theme=hugo-multi-bootswatch%20--baseUrl=http:/caijing.github.io/themes/hyde/LICENSE/</loc>
   </url>
   
   <url>
-    <loc>http://caijing.github.io/themes/hyde/layouts/_default/list/</loc>
+    <loc>http://caijing.github.io/%0A%0Ahugo%20--theme=hugo-multi-bootswatch%20--baseUrl=http:/caijing.github.io/themes/hyde/README/</loc>
   </url>
   
   <url>
-    <loc>http://caijing.github.io/themes/hyde/layouts/_default/single/</loc>
+    <loc>http://caijing.github.io/%0A%0Ahugo%20--theme=hugo-multi-bootswatch%20--baseUrl=http:/caijing.github.io/themes/hyde/archetypes/default/</loc>
   </url>
   
   <url>
-    <loc>http://caijing.github.io/themes/hyde/layouts/</loc>
+    <loc>http://caijing.github.io/%0A%0Ahugo%20--theme=hugo-multi-bootswatch%20--baseUrl=http:/caijing.github.io/themes/hyde/layouts/404/</loc>
   </url>
   
   <url>
-    <loc>http://caijing.github.io/themes/hyde/layouts/partials/disqus/</loc>
+    <loc>http://caijing.github.io/%0A%0Ahugo%20--theme=hugo-multi-bootswatch%20--baseUrl=http:/caijing.github.io/themes/hyde/layouts/_default/list/</loc>
   </url>
   
   <url>
-    <loc>http://caijing.github.io/themes/hyde/layouts/partials/head/</loc>
+    <loc>http://caijing.github.io/%0A%0Ahugo%20--theme=hugo-multi-bootswatch%20--baseUrl=http:/caijing.github.io/themes/hyde/layouts/_default/single/</loc>
   </url>
   
   <url>
-    <loc>http://caijing.github.io/themes/hyde/layouts/partials/sidebar/</loc>
+    <loc>http://caijing.github.io/%0A%0Ahugo%20--theme=hugo-multi-bootswatch%20--baseUrl=http:/caijing.github.io/themes/hyde/layouts/</loc>
+  </url>
+  
+  <url>
+    <loc>http://caijing.github.io/%0A%0Ahugo%20--theme=hugo-multi-bootswatch%20--baseUrl=http:/caijing.github.io/themes/hyde/layouts/partials/disqus/</loc>
+  </url>
+  
+  <url>
+    <loc>http://caijing.github.io/%0A%0Ahugo%20--theme=hugo-multi-bootswatch%20--baseUrl=http:/caijing.github.io/themes/hyde/layouts/partials/head/</loc>
+  </url>
+  
+  <url>
+    <loc>http://caijing.github.io/%0A%0Ahugo%20--theme=hugo-multi-bootswatch%20--baseUrl=http:/caijing.github.io/themes/hyde/layouts/partials/sidebar/</loc>
   </url>
   
 </urlset>
