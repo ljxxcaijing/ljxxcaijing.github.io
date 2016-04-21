@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://replace-this-with-your-hugo-site.com/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 Apr 2016 17:16:29 +0800</lastBuildDate>
+    <atom:link href="http://replace-this-with-your-hugo-site.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>first</title>
+      <link>http://replace-this-with-your-hugo-site.com/post/first/</link>
+      <pubDate>Wed, 20 Apr 2016 17:16:29 +0800</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/post/first/</guid>
+      <description>
+
+&lt;h3 id=&#34;hello-hugo:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;Hello Hugo&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;aaa&lt;/li&gt;
+&lt;li&gt;bbb&lt;/li&gt;
+&lt;li&gt;ccc&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://replace-this-with-your-hugo-site.com/themes/hyde/LICENSE/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/themes/hyde/LICENSE/</guid>
+      <description>
+
+&lt;h1 id=&#34;released-under-mit-license:37854d19817c792316d481f5beb93cc7&#34;&gt;Released under MIT License&lt;/h1&gt;
+
+&lt;p&gt;Copyright &amp;copy; 2013 Mark Otto.&lt;/p&gt;
+
+&lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &amp;ldquo;Software&amp;rdquo;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:&lt;/p&gt;
+
+&lt;p&gt;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.&lt;/p&gt;
+
+&lt;p&gt;THE SOFTWARE IS PROVIDED &amp;ldquo;AS IS&amp;rdquo;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://replace-this-with-your-hugo-site.com/themes/hyde/README/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/themes/hyde/README/</guid>
+      <description>
+
+&lt;h1 id=&#34;hyde:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;Hyde&lt;/h1&gt;
+
+&lt;p&gt;Hyde is a brazen two-column &lt;a href=&#34;http://hugo.spf13.com&#34;&gt;hugo&lt;/a&gt; theme based on the &lt;a href=&#34;http://jekyllrb.com&#34;&gt;Jekyll&lt;/a&gt; theme of the same name.
+It pairs a prominent sidebar with uncomplicated content.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://f.cloud.github.com/assets/98681/1831228/42af6c6a-7384-11e3-98fb-e0b923ee0468.png&#34; alt=&#34;Hyde screenshot&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;contents:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;Contents&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#options&#34;&gt;Options&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#sidebar-menu&#34;&gt;Sidebar menu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#sticky-sidebar-content&#34;&gt;Sticky sidebar content&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#themes&#34;&gt;Themes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#reverse-layout&#34;&gt;Reverse layout&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#disqus&#34;&gt;Disqus&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#author&#34;&gt;Author&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#ported-by&#34;&gt;Ported by&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#license&#34;&gt;License&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;options:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;Options&lt;/h2&gt;
+
+&lt;p&gt;Hyde includes some customizable options, typically applied via classes on the &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt; element.&lt;/p&gt;
+
+&lt;h3 id=&#34;sidebar-menu:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;Sidebar menu&lt;/h3&gt;
+
+&lt;p&gt;Create a list of nav links in the sidebar by assigning &amp;ldquo;menu=main&amp;rdquo; in the front matter.&lt;/p&gt;
+
+&lt;h3 id=&#34;sticky-sidebar-content:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;Sticky sidebar content&lt;/h3&gt;
+
+&lt;p&gt;By default Hyde ships with a sidebar that affixes it&amp;rsquo;s content to the bottom of the sidebar. You can optionally disabled this by removing the &lt;code&gt;.sidebar-sticky&lt;/code&gt; class from the sidebar&amp;rsquo;s &lt;code&gt;.container&lt;/code&gt;. Sidebar content will then normally flow from top to bottom.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;!-- Default sidebar --&amp;gt;
+&amp;lt;div class=&amp;quot;sidebar&amp;quot;&amp;gt;
+  &amp;lt;div class=&amp;quot;container sidebar-sticky&amp;quot;&amp;gt;
+    ...
+  &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;!-- Modified sidebar --&amp;gt;
+&amp;lt;div class=&amp;quot;sidebar&amp;quot;&amp;gt;
+  &amp;lt;div class=&amp;quot;container&amp;quot;&amp;gt;
+    ...
+  &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;themes:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;Themes&lt;/h3&gt;
+
+&lt;p&gt;Hyde ships with eight optional themes based on the &lt;a href=&#34;https://github.com/chriskempson/base16&#34;&gt;base16 color scheme&lt;/a&gt;. Apply a theme to change the color scheme (mostly applies to sidebar and links).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://f.cloud.github.com/assets/98681/1831229/42b0b354-7384-11e3-8462-31b8df193fe5.png&#34; alt=&#34;Hyde in red&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There are eight themes available at this time.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://f.cloud.github.com/assets/98681/1817044/e5b0ec06-6f68-11e3-83d7-acd1942797a1.png&#34; alt=&#34;Hyde theme classes&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To use a theme, add the &lt;code&gt;themeColor&lt;/code&gt; variable under &lt;code&gt;params&lt;/code&gt;, like so:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;TOML&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;theme = &amp;quot;hyde&amp;quot;
+
+[params]
+  themeColor = &amp;quot;theme-base-09&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;YAML&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;theme: &amp;quot;hyde&amp;quot;
+
+params:
+  themeColor: &amp;quot;theme-base-09&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To create your own theme, look to the Themes section of &lt;a href=&#34;https://github.com/poole/hyde/blob/master/public/css/hyde.css&#34;&gt;included CSS file&lt;/a&gt;. Copy any existing theme (they&amp;rsquo;re only a few lines of CSS), rename it, and change the provided colors.&lt;/p&gt;
+
+&lt;h3 id=&#34;reverse-layout:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;Reverse layout&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://f.cloud.github.com/assets/98681/1831230/42b0d3ac-7384-11e3-8d54-2065afd03f9e.png&#34; alt=&#34;Hyde with reverse layout&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To reverse page orientation, add the &lt;code&gt;layoutReverse&lt;/code&gt; variable under &lt;code&gt;params&lt;/code&gt;, like so:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;TOML&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;theme = &amp;quot;hyde&amp;quot;
+
+[params]
+  layoutReverse = true
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;YAML&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;theme: &amp;quot;hyde&amp;quot;
+
+params:
+  layoutReverse: true
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;disqus:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;Disqus&lt;/h3&gt;
+
+&lt;p&gt;You can optionally enable a comment system powered by Disqus for the posts. Simply add the variable &lt;code&gt;disqusShortname&lt;/code&gt; to the &lt;code&gt;params&lt;/code&gt; in your config file.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;TOML&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[params]
+  disqusShortname = &amp;quot;spf13&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;YAML&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;params:
+  disqusShortname: &amp;quot;spf13&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;author:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;Author&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Mark Otto&lt;/strong&gt;
+- &lt;a href=&#34;https://github.com/mdo&#34;&gt;https://github.com/mdo&lt;/a&gt;
+- &lt;a href=&#34;https://twitter.com/mdo&#34;&gt;https://twitter.com/mdo&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;ported-by:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;Ported By&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Steve Francia&lt;/strong&gt;
+- &lt;a href=&#34;https://github.com/spf13&#34;&gt;https://github.com/spf13&lt;/a&gt;
+- &lt;a href=&#34;https://twitter.com/spf13&#34;&gt;https://twitter.com/spf13&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;license:04c6e90faac2675aa89e2176d2eec7d8&#34;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;Open sourced under the &lt;a href=&#34;LICENSE.md&#34;&gt;MIT license&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;3&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://replace-this-with-your-hugo-site.com/themes/hyde/archetypes/default/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/themes/hyde/archetypes/default/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://replace-this-with-your-hugo-site.com/themes/hyde/layouts/404/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/themes/hyde/layouts/404/</guid>
+      <description>partial &#34;head.html&#34; . }}
+&lt;body class=&#34;{{ .Site.Params.themeColor }}&#34;&gt;
+
+{{ partial &#34;sidebar.html&#34; . }}
+
+    &lt;div class=&#34;content container&#34;&gt;
+      &lt;h1&gt;404: Page not found&lt;/h1&gt;
+        &lt;p class=&#34;lead&#34;&gt;Sorry, we&#39;ve misplaced that URL or it&#39;s pointing to something that doesn&#39;t exist. &lt;a href=&#34;{{ .Site.BaseURL }}&#34;&gt;Head back home&lt;/a&gt; to try finding it again.&lt;/p&gt;
+    &lt;/div&gt;
+
+  &lt;/body&gt;
+&lt;/html&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://replace-this-with-your-hugo-site.com/themes/hyde/layouts/_default/list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/themes/hyde/layouts/_default/list/</guid>
+      <description>partial &#34;head.html&#34; . }}
+&lt;body class=&#34;{{ .Site.Params.themeColor }}&#34;&gt;
+
+{{ partial &#34;sidebar.html&#34; . }}
+
+  &lt;div class=&#34;content container&#34;&gt;
+    &lt;ul class=&#34;posts&#34;&gt;
+        {{ range .Data.Pages }}
+        &lt;li&gt;
+          &lt;span&gt;&lt;a href=&#34;{{ .Permalink }}&#34;&gt;{{ .Title }}&lt;/a&gt; &lt;time class=&#34;pull-right post-list&#34;&gt;{{ .Date.Format &#34;Mon, Jan 2, 2006&#34; }}&lt;/time&gt;&lt;/span&gt;
+        &lt;/li&gt;
+        {{ end }}
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://replace-this-with-your-hugo-site.com/themes/hyde/layouts/_default/single/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/themes/hyde/layouts/_default/single/</guid>
+      <description>partial &#34;head.html&#34; . }}
+	&lt;body class=&#34;{{ .Site.Params.themeColor }}&#34;&gt;
+		{{ partial &#34;sidebar.html&#34; . }}
+
+		&lt;div class=&#34;content container&#34;&gt;
+			&lt;div class=&#34;post&#34;&gt;
+			 	&lt;h1&gt;{{ .Title }}&lt;/h1&gt;
+			  &lt;span class=&#34;post-date&#34;&gt;{{ .Date.Format &#34;Mon, Jan 2, 2006&#34; }}&lt;/span&gt;
+			      {{ .Content }}
+			&lt;/div&gt;
+
+			{{ if and (isset .Site.Params &#34;disqusShortname&#34;) (ne .Site.Params.disqusShortname &#34;&#34;) }}
+				&lt;h2&gt;Comments&lt;/h2&gt;
+				{{ partial &#34;disqus&#34; . }}
+			{{ end }}
+		&lt;/div&gt;
+
+  &lt;/body&gt;
+&lt;/html&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://replace-this-with-your-hugo-site.com/themes/hyde/layouts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/themes/hyde/layouts/</guid>
+      <description>partial &#34;head.html&#34; . }}
+&lt;body class=&#34;{{ .Site.Params.themeColor }} {{if .Site.Params.layoutReverse}}layout-reverse{{end}}&#34;&gt;
+
+{{ partial &#34;sidebar.html&#34; . }}
+
+    &lt;div class=&#34;content container&#34;&gt;
+&lt;div class=&#34;posts&#34;&gt;
+
+      {{ range .Data.Pages }}
+  &lt;div class=&#34;post&#34;&gt;
+    &lt;h1 class=&#34;post-title&#34;&gt;
+      &lt;a href=&#34;{{ .Permalink }}&#34;&gt;
+        {{ .Title }}
+      &lt;/a&gt;
+    &lt;/h1&gt;
+
+    &lt;span class=&#34;post-date&#34;&gt;{{ .Date.Format &#34;Mon, Jan 2, 2006&#34; }}&lt;/span&gt;
+
+    {{ .Content }}
+  &lt;/div&gt;
+  {{ end }}
+&lt;/div&gt;
+&lt;/div&gt;
+
+  &lt;/body&gt;
+&lt;/html&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://replace-this-with-your-hugo-site.com/themes/hyde/layouts/partials/disqus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/themes/hyde/layouts/partials/disqus/</guid>
+      <description>&lt;div id=&#34;disqus_thread&#34;&gt;&lt;/div&gt;
+&lt;script type=&#34;text/javascript&#34;&gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = &#39;{{ .Site.Params.disqusShortname }}&#39;; // Required - Replace &#39;&lt;example&gt;&#39; with your forum shortname
+
+    /* * * DON&#39;T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement(&#39;script&#39;); dsq.type = &#39;text/javascript&#39;; dsq.async = true;
+        dsq.src = &#39;//&#39; + disqus_shortname + &#39;.disqus.com/embed.js&#39;;
+        (document.getElementsByTagName(&#39;head&#39;)[0] || document.getElementsByTagName(&#39;body&#39;)[0]).appendChild(dsq);
+    })();
+&lt;/script&gt;
+&lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&#34;https://disqus.com/?ref_noscript&#34;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://replace-this-with-your-hugo-site.com/themes/hyde/layouts/partials/head/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/themes/hyde/layouts/partials/head/</guid>
+      <description>&lt;!DOCTYPE html&gt;
+&lt;html xmlns=&#34;http://www.w3.org/1999/xhtml&#34;{{with .Site.LanguageCode}} xml:lang=&#34;{{.}}&#34; lang=&#34;{{.}}&#34;{{end}}&gt;
+&lt;head&gt;
+  &lt;link href=&#34;http://gmpg.org/xfn/11&#34; rel=&#34;profile&#34;&gt;
+  &lt;meta http-equiv=&#34;content-type&#34; content=&#34;text/html; charset=utf-8&#34;&gt;
+  {{ .Hugo.Generator }}
+
+  &lt;!-- Enable responsiveness on mobile devices--&gt;
+  &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0, maximum-scale=1&#34;&gt;
+
+  &lt;title&gt; {{ .Title }} &amp;middot; {{ .Site.Title }} &lt;/title&gt;
+
+  &lt;!-- CSS --&gt;
+  &lt;link rel=&#34;stylesheet&#34; href=&#34;{{ .Site.BaseURL }}css/poole.css&#34;&gt;
+  &lt;link rel=&#34;stylesheet&#34; href=&#34;{{ .Site.BaseURL }}css/syntax.css&#34;&gt;
+  &lt;link rel=&#34;stylesheet&#34; href=&#34;{{ .Site.BaseURL }}css/hyde.css&#34;&gt;
+  &lt;link rel=&#34;stylesheet&#34; href=&#34;https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface&#34;&gt;
+
+  &lt;!-- Icons --&gt;
+  &lt;link rel=&#34;apple-touch-icon-precomposed&#34; sizes=&#34;144x144&#34; href=&#34;http://replace-this-with-your-hugo-site.com/apple-touch-icon-144-precomposed.png&#34;&gt;
+  &lt;link rel=&#34;shortcut icon&#34; href=&#34;http://replace-this-with-your-hugo-site.com/favicon.png&#34;&gt;
+
+  &lt;!-- RSS --&gt;
+  &lt;link href=&#34;{{ .RSSlink }}&#34; rel=&#34;alternate&#34; type=&#34;application/rss+xml&#34; title=&#34;{{ .Site.Title }}&#34; /&gt;
+&lt;/head&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://replace-this-with-your-hugo-site.com/themes/hyde/layouts/partials/sidebar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/themes/hyde/layouts/partials/sidebar/</guid>
+      <description>&lt;div class=&#34;sidebar&#34;&gt;
+  &lt;div class=&#34;container sidebar-sticky&#34;&gt;
+    &lt;div class=&#34;sidebar-about&#34;&gt;
+      &lt;a href=&#34;{{ .Site.BaseURL }}&#34;&gt;&lt;h1&gt;{{ .Site.Title }}&lt;/h1&gt;&lt;/a&gt;
+      &lt;p class=&#34;lead&#34;&gt;
+      {{ with .Site.Params.description }} {{.}} {{ else }}An elegant open source and mobile first theme for &lt;a href=&#34;http://hugo.spf13.com&#34;&gt;hugo&lt;/a&gt; made by &lt;a href=&#34;http://twitter.com/mdo&#34;&gt;@mdo&lt;/a&gt;. Originally made for Jekyll.{{end}}
+      &lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;ul class=&#34;sidebar-nav&#34;&gt;
+      &lt;li&gt;&lt;a href=&#34;http://replace-this-with-your-hugo-site.com/&#34;&gt;Home&lt;/a&gt; &lt;/li&gt;
+      {{ range .Site.Menus.main }}
+        &lt;li&gt;&lt;a href=&#34;{{.URL}}&#34;&gt; {{ .Name }} &lt;/a&gt;&lt;/li&gt;
+      {{end}}
+    &lt;/ul&gt;
+
+    &lt;p&gt;{{ with .Site.Params.copyright }}{{.}}{{ else }}&amp;copy; {{.Now.Format &#34;2006&#34;}}. All rights reserved. {{end}}&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
