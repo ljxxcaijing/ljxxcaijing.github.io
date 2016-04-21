@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcomes on </title>
+    <link>/welcome/</link>
+    <description>Recent content in Welcomes on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <atom:link href="/welcome/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>/welcome/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/welcome/</guid>
+      <description>&lt;!DOCTYPE html&gt;
+&lt;html class=&#34;no-js&#34; lang=&#34;en-us&#34; xmlns=&#34;http://www.w3.org/1999/xhtml&#34; xml:lang=&#34;en&#34; lang=&#34;en-us&#34;&gt;
+&lt;head&gt;
+    &lt;meta charset=&#34;utf-8&#34;&gt;
+    &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;
+
+    &lt;meta name=&#34;description&#34; content=&#34;你好，Hugo&#34;&gt;
+    &lt;meta name=&#34;author&#34; content=&#34;&#34;&gt;
+
+    &lt;meta name=&#34;keyword&#34; content=&#34;&#34;&gt;
+    &lt;link rel=&#34;shortcut icon&#34; href=&#34;/favicon.ico&#34;&gt;
+
+    &lt;title&gt;你好，Hugo &amp;middot; Never But Life&lt;/title&gt;
+
+   	
+    
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;http://caijing.github.io/%0A%0Ahugo%20--theme=hugo-multi-bootswatch%20--baseUrl=http:/caijing.github.io//css/theme/flatly.css&#34;&gt;
+    
+
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;http://caijing.github.io/%0A%0Ahugo%20--theme=hugo-multi-bootswatch%20--baseUrl=http:/caijing.github.io//css/font-awesome.min.css&#34;&gt;
+
+   	
+   	&lt;link rel=&#34;stylesheet&#34; href=&#34;http://caijing.github.io/%0A%0Ahugo%20--theme=hugo-multi-bootswatch%20--baseUrl=http:/caijing.github.io//css/style.css&#34;&gt;
+
+
+    
+    &lt;script src=&#34;http://caijing.github.io/%0A%0Ahugo%20--theme=hugo-multi-bootswatch%20--baseUrl=http:/caijing.github.io//js/jquery.min-2.1.4.js&#34;&gt;&lt;/script&gt;
+    &lt;script src=&#34;http://caijing.github.io/%0A%0Ahugo%20--theme=hugo-multi-bootswatch%20--baseUrl=http:/caijing.github.io//js/bootstrap.min-3.3.5.js&#34;&gt;&lt;/script&gt;
+   &lt;script src=&#34;http://cdn.bootcss.com/highlight.js/9.0.0/highlight.min.js&#34;&gt;&lt;/script&gt;
+   &lt;link href=&#34;http://cdn.bootcss.com/highlight.js/9.0.0/styles/default.min.css&#34; rel=&#34;stylesheet&#34;&gt;
+   &lt;script&gt;hljs.initHighlightingOnLoad();&lt;/script&gt;
+
+    
+    &lt;link href=&#34;&#34; rel=&#34;alternate&#34; type=&#34;application/rss+xml&#34; title=&#34;Never But Life&#34; /&gt;
+&lt;/head&gt;
+&lt;body lang=&#34;en&#34;&gt;
+    
+    &lt;div class=&#34;container&#34;&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;navbar navbar-default navbar-inverse&#34; role=&#34;navigation&#34;&gt;
+            &lt;div class=&#34;navbar-header&#34;&gt;
+                &lt;a class=&#34;navbar-brand&#34; href=&#34;http://caijing.github.io/%0A%0Ahugo%20--theme=hugo-multi-bootswatch%20--baseUrl=http:/caijing.github.io/&#34;&gt;Never But Life&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class=&#34;navbar-collapse collapse navbar-responsive-collapse&#34;&gt;
+                &lt;ul class=&#34;nav navbar-nav navbar-right&#34;&gt;
+                    &lt;li&gt;&lt;a href=&#34;http://caijing.github.io/%0A%0Ahugo%20--theme=hugo-multi-bootswatch%20--baseUrl=http:/caijing.github.io/&#34;&gt;首页&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&#34;http://caijing.github.io/%0A%0Ahugo%20--theme=hugo-multi-bootswatch%20--baseUrl=http:/caijing.github.io//post/&#34;&gt;文章&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&#34;http://caijing.github.io/%0A%0Ahugo%20--theme=hugo-multi-bootswatch%20--baseUrl=http:/caijing.github.io//page/about&#34;&gt;关于我&lt;/a&gt;&lt;/li&gt;
+                    
+                      &lt;li&gt;&lt;a href=&#34;/%0A%0Ahugo%20--theme=hugo-multi-bootswatch%20--baseUrl=http:/caijing.github.io/themes/hyde/archetypes/default/&#34;&gt;  &lt;/a&gt;&lt;/li&gt;
+                    
+                      &lt;li&gt;&lt;a href=&#34;/%0A%0Ahugo%20--theme=hugo-multi-bootswatch%20--baseUrl=http:/caijing.github.io/content/welcome/&#34;&gt; 你好，Hugo &lt;/a&gt;&lt;/li&gt;
+                    
+                &lt;/ul&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;container&#34;&gt;
+	&lt;div class=&#34;row&#34;&gt;
+		&lt;div class=&#34;col-md-offset-1 col-md-10&#34;&gt;
+			&lt;h3&gt;你好，Hugo&lt;/h3&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&#34;row&#34;&gt;
+		&lt;div class=&#34;col-md-offset-1 col-md-10&#34;&gt;
+			&lt;br&gt;
+			
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&#34;row&#34;&gt;
+		&lt;div class=&#34;col-md-12&#34;&gt;
+			&lt;hr&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+    &lt;div class=&#34;container&#34;&gt;
+        &lt;div class=&#34;row col-md-12&#34;&gt;
+            &lt;footer&gt;
+                &lt;div class=&#34;pull-left&#34;&gt;
+                    &lt;p&gt;
+                        &amp;copy;  ~ Powered By &lt;a href=&#34;http://hugo.spf13.com&#34;&gt;Hugo&lt;/a&gt; - version: 0.15 ~ &lt;a href=&#34;http://caijing.github.io/%0A%0Ahugo%20--theme=hugo-multi-bootswatch%20--baseUrl=http:/caijing.github.io//license&#34;&gt;License&lt;/a&gt;
+                    &lt;/p&gt;
+                &lt;/div&gt;
+
+                
+                &lt;div class=&#34;pull-right&#34;&gt;
+                    
+                    
+                    
+                    
+                        &lt;a href=&#34;https://github.com/ihuangmx&#34; target=&#34;_blank&#34;&gt;
+                        &lt;i class=&#34;fa fa-github-square fa-2x&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+                    
+                    
+                    
+                    
+                &lt;/div&gt;
+            &lt;/footer&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    
+    &lt;/body&gt;
+&lt;/html&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>
