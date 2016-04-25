@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>/</link>
+    <description>Recent content on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>/welcome/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/welcome/</guid>
+      <description>&lt;!DOCTYPE html&gt;
+&lt;html class=&#34;no-js&#34; lang=&#34;en-US&#34; prefix=&#34;og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#&#34;&gt;
+&lt;head&gt;
+    &lt;meta charset=&#34;utf-8&#34;&gt;
+
+    &lt;meta http-equiv=&#34;X-UA-Compatible&#34; content=&#34;IE=edge,chrome=1&#34;&gt;
+&lt;meta name=&#34;description&#34; content=&#34;&#34;&gt;
+&lt;meta name=&#34;HandheldFriendly&#34; content=&#34;True&#34;&gt;
+&lt;meta name=&#34;MobileOptimized&#34; content=&#34;320&#34;&gt;
+&lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1&#34;&gt;
+
+
+&lt;meta name=&#34;keywords&#34; content=&#34;Development, golang, &#34;&gt;
+
+ 
+&lt;meta property=&#34;og:type&#34; content=&#34;article&#34;/&gt;
+&lt;meta property=&#34;og:description&#34; content=&#34;&#34;/&gt;
+&lt;meta property=&#34;og:title&#34; content=&#34;你好，Hugo : spf13.com&#34;/&gt;
+&lt;meta property=&#34;og:site_name&#34; content=&#34;spf13 is Steve Francia&#34;/&gt;
+&lt;meta property=&#34;og:image&#34; content=&#34;&#34; /&gt;
+&lt;meta property=&#34;og:image:type&#34; content=&#34;image/jpeg&#34; /&gt;
+&lt;meta property=&#34;og:image:width&#34; content=&#34;&#34; /&gt;
+&lt;meta property=&#34;og:image:height&#34; content=&#34;&#34; /&gt;
+&lt;meta property=&#34;og:url&#34; content=&#34;http://ljxxcaijing.github.io/content/welcome/&#34;&gt;
+&lt;meta property=&#34;og:locale&#34; content=&#34;en_US&#34;&gt;
+&lt;meta property=&#34;article:published_time&#34; content=&#34;2015-09-23&#34;/&gt;
+&lt;meta property=&#34;article:modified_time&#34; content=&#34;2015-09-23&#34;/&gt;
+
+
+
+&lt;meta property=&#34;article:tag&#34; content=&#34;Development&#34;&gt;
+&lt;meta property=&#34;article:tag&#34; content=&#34;golang&#34;&gt;
+
+
+
+
+&lt;meta name=&#34;twitter:card&#34; content=&#34;summary&#34;&gt;
+
+&lt;meta name=&#34;twitter:site&#34; content=&#34;@spf13&#34;&gt;
+&lt;meta name=&#34;twitter:title&#34; content=&#34;你好，Hugo : spf13.com&#34;&gt;
+&lt;meta name=&#34;twitter:creator&#34; content=&#34;@spf13&#34;&gt;
+&lt;meta name=&#34;twitter:description&#34; content=&#34;&#34;&gt;
+&lt;meta name=&#34;twitter:image:src&#34; content=&#34;&#34;&gt;
+&lt;meta name=&#34;twitter:domain&#34; content=&#34;spf13.com&#34;&gt;
+
+
+
+    &lt;base href=&#34;http://ljxxcaijing.github.io&#34;&gt;
+    &lt;title&gt; 你好，Hugo - spf13.com &lt;/title&gt;
+    &lt;link rel=&#34;canonical&#34; href=&#34;http://ljxxcaijing.github.io/content/welcome/&#34;&gt;
+    
+
+    &lt;link href=&#39;http://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:300&#39; rel=&#39;stylesheet&#39; type=&#39;text/css&#39;&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/static/css/style.css&#34;&gt;
+
+&lt;script src=&#34;https://yandex.st/highlightjs/8.0/highlight.min.js&#34;&gt;&lt;/script&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://yandex.st/highlightjs/8.0/styles/default.min.css&#34;&gt;
+&lt;script&gt;hljs.initHighlightingOnLoad();&lt;/script&gt;
+
+&lt;script src=&#34;https://yandex.st/highlightjs/8.0/highlight.min.js&#34;&gt;&lt;/script&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://yandex.st/highlightjs/8.0/styles/default.min.css&#34;&gt;
+&lt;script&gt;hljs.initHighlightingOnLoad();&lt;/script&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;/path/to/styles/default.css&#34;&gt;
+&lt;script src=&#34;/path/to/highlight.pack.js&#34;&gt;&lt;/script&gt;
+&lt;script&gt;hljs.initHighlightingOnLoad();&lt;/script&gt;
+
+    &lt;link rel=&#34;shortcut icon&#34; href=&#34;/favicon.ico&#34; type=&#34;image/x-icon&#34; /&gt;
+    &lt;link rel=&#34;apple-touch-icon&#34; href=&#34;/apple-touch-icon.png&#34; /&gt;
+
+&lt;/head&gt;
+
+&lt;body lang=&#34;en&#34; itemscope itemtype=&#34;http://schema.org/Article&#34;&gt;
+&lt;header id=&#34;header&#34;&gt;
+    &lt;figure&gt;
+      &lt;a href=&#34;/&#34; border=0 id=&#34;logolink&#34;&gt;&lt;div class=&#34;icon-spf13-3&#34; id=&#34;logo&#34;&gt; &lt;/div&gt;&lt;/a&gt;
+    &lt;/figure&gt;
+    &lt;div id=&#34;byline&#34;&gt;by Cai Jing&lt;/div&gt;
+    &lt;nav id=&#34;nav&#34;&gt;
+            &lt;ul id=&#34;mainnav&#34;&gt;
+            &lt;li&gt;
+                &lt;a href=&#34;/post/&#34;&gt;
+                &lt;span class=&#34;icon&#34;&gt; &lt;i aria-hidden=&#34;true&#34; class=&#34;icon-quill&#34;&gt;&lt;/i&gt;&lt;/span&gt;
+                &lt;span&gt; blog &lt;/span&gt;
+            &lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+            &lt;a href=&#34;/project/&#34;&gt;
+                &lt;span class=&#34;icon&#34;&gt; &lt;i aria-hidden=&#34;true&#34; class=&#34;icon-console&#34;&gt;&lt;/i&gt;&lt;/span&gt;
+                &lt;span&gt; code &lt;/span&gt;
+            &lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+            &lt;a href=&#34;/presentation/&#34;&gt;
+                &lt;span class=&#34;icon&#34;&gt; &lt;i aria-hidden=&#34;true&#34; class=&#34;icon-stats&#34;&gt;&lt;/i&gt;&lt;/span&gt;
+                &lt;span&gt; talks &lt;/span&gt;
+            &lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+            &lt;a href=&#34;http://stevefrancia.com&#34;&gt;
+                &lt;span class=&#34;icon&#34;&gt; &lt;i aria-hidden=&#34;true&#34; class=&#34;icon-13&#34;&gt;&lt;/i&gt;&lt;/span&gt;
+                &lt;span&gt; me &lt;/span&gt;
+            &lt;/a&gt;
+            &lt;/li&gt;
+        &lt;/ul&gt;
+
+            &lt;ul id=&#34;social&#34;&gt;
+            &lt;li id=&#34;share&#34;&gt;
+                &lt;span class=&#34;icon icon-bubbles&#34;&gt; &lt;/span&gt;
+                &lt;span class=&#34;title&#34;&gt; share &lt;/span&gt;
+                &lt;div class=&#34;dropdown share&#34;&gt;
+                    &lt;ul class=&#34;social&#34;&gt;
+                      &lt;li&gt; &lt;a href=&#34;https://twitter.com/intent/tweet?status=%e4%bd%a0%e5%a5%bd%ef%bc%8cHugo-http%3a%2f%2fljxxcaijing.github.io%2fcontent%2fwelcome%2f&#34; target=&#34;_blank&#34; title=&#34;Follow me on Twitter&#34; class=&#34;twitter&#34;&gt;&lt;span class=&#34;icon icon-twitter&#34;&gt;&lt;/span&gt;Twitter&lt;/a&gt; &lt;/li&gt;
+                        &lt;li&gt; &lt;a href=&#34;https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fljxxcaijing.github.io%2fcontent%2fwelcome%2f&#34; target=&#34;_blank&#34; title=&#34;Join me on Facebook&#34; class=&#34;facebook&#34;&gt;&lt;span class=&#34;icon icon-facebook&#34;&gt;&lt;/span&gt;Facebook&lt;/a&gt; &lt;/li&gt;
+                        &lt;li&gt; &lt;a href=&#34;https://plus.google.com/share?url=http%3a%2f%2fljxxcaijing.github.io%2fcontent%2fwelcome%2f&#34; target=&#34;_blank&#34; title=&#34;Google+&#34; class=&#34;googleplus&#34;&gt;&lt;span class=&#34;icon icon-google-plus&#34;&gt;&lt;/span&gt;Google+&lt;/a&gt; &lt;/li&gt;
+                        &lt;li&gt; &lt;a href=&#34;http://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2fljxxcaijing.github.io%2fcontent%2fwelcome%2f&amp;title=%e4%bd%a0%e5%a5%bd%ef%bc%8cHugo&amp;source=spf13&#34; target=&#34;_blank&#34; title=&#34;LinkedIn&#34; class=&#34;linkedin&#34;&gt;&lt;span class=&#34;icon icon-linkedin&#34;&gt;&lt;/span&gt;LinkedIn&lt;/a&gt; &lt;/li&gt;
+                        &lt;li&gt; &lt;a href=&#34;http://del.icio.us/post?url=http%3a%2f%2fljxxcaijing.github.io%2fcontent%2fwelcome%2f&#34; target=&#34;_blank&#34; title=&#34;Delicious&#34; class=&#34;delicious&#34;&gt;&lt;span class=&#34;icon icon-delicious&#34;&gt;&lt;/span&gt;Delicious&lt;/a&gt; &lt;/li&gt;
+                        &lt;li&gt; &lt;a href=&#34;http://www.reddit.com/submit?url=http%3a%2f%2fljxxcaijing.github.io%2fcontent%2fwelcome%2f&#34; target=&#34;_blank&#34; title=&#34;Reddit&#34; class=&#34;reddit&#34;&gt;&lt;span class=&#34;icon icon-reddit&#34;&gt;&lt;/span&gt;Reddit&lt;/a&gt; &lt;/li&gt;
+                        &lt;li&gt; &lt;a href=&#34;http://www.stumbleupon.com/submit?url=http%3a%2f%2fljxxcaijing.github.io%2fcontent%2fwelcome%2f&#34; target=&#34;_blank&#34; title=&#34;StumbleUpon&#34; class=&#34;stumbleupon&#34;&gt;&lt;span class=&#34;icon icon-stumbleupon&#34;&gt;&lt;/span&gt;StumbleUpon&lt;/a&gt; &lt;/li&gt;
+                    &lt;/ul&gt;
+                    &lt;span class=&#34;subcount&#34;&gt;sharing is caring&lt;/span&gt;
+                &lt;/div&gt;
+            &lt;/li&gt;
+            &lt;li id=&#34;follow&#34;&gt;
+                &lt;span class=&#34;icon icon-rocket&#34;&gt; &lt;/span&gt;
+                &lt;span class=&#34;title&#34;&gt; follow &lt;/span&gt;
+                &lt;div class=&#34;dropdown follow&#34;&gt;
+                    &lt;ul class=&#34;social&#34;&gt;
+                        &lt;li&gt; &lt;a href=&#34;http://feeds.feedburner.com/spf13&#34; target=&#34;_blank&#34; title=&#34;Subscribe by RSS&#34; class=&#34;rss&#34;&gt;&lt;span class=&#34;icon icon-feed-2&#34;&gt;&lt;/span&gt;RSS&lt;/a&gt; &lt;/li&gt;
+                        &lt;li&gt; &lt;a href=&#34;http://www.twitter.com/spf13&#34; target=&#34;_blank&#34; title=&#34;Follow me on Twitter&#34; class=&#34;twitter&#34;&gt;&lt;span class=&#34;icon icon-twitter&#34;&gt;&lt;/span&gt;Twitter&lt;/a&gt; &lt;/li&gt;
+                        &lt;li&gt; &lt;a href=&#34;http://www.facebook.com/stevefrancia&#34; target=&#34;_blank&#34; title=&#34;Join me on Facebook&#34; class=&#34;facebook&#34;&gt;&lt;span class=&#34;icon icon-facebook&#34;&gt;&lt;/span&gt;Facebook&lt;/a&gt; &lt;/li&gt;
+                        &lt;li&gt; &lt;a href=&#34;http://www.linkedin.com/in/stevefrancia&#34; target=&#34;_blank&#34; title=&#34;LinkedIn&#34; class=&#34;linkedin&#34;&gt;&lt;span class=&#34;icon icon-linkedin&#34;&gt;&lt;/span&gt;LinkedIn&lt;/a&gt; &lt;/li&gt;
+                        &lt;li&gt; &lt;a href=&#34;http://github.com/spf13&#34; target=&#34;_blank&#34; title=&#34;GitHub&#34; class=&#34;github&#34;&gt;&lt;span class=&#34;icon icon-github&#34;&gt;&lt;/span&gt;GitHub&lt;/a&gt; &lt;/li&gt;
+                        &lt;li&gt; &lt;a href=&#34;http://gplus.to/spf13&#34; target=&#34;_blank&#34; title=&#34;Google+&#34; class=&#34;googleplus&#34;&gt;&lt;span class=&#34;icon icon-google-plus&#34;&gt;&lt;/span&gt;Google+&lt;/a&gt; &lt;/li&gt;
+                        &lt;li&gt; &lt;a href=&#34;http://slideshare.com/spf13&#34; target=&#34;_blank&#34; title=&#34;SlideShare&#34; class=&#34;slideshare&#34;&gt;&lt;span class=&#34;icon icon-slideshare&#34;&gt;&lt;/span&gt;SlideShare&lt;/a&gt; &lt;/li&gt;
+                    &lt;/ul&gt;
+                    &lt;span class=&#34;subcount&#34;&gt;join 10k+ subscribers &amp;amp; followers&lt;/span&gt;
+                &lt;/div&gt;
+            &lt;/li&gt;
+        &lt;/ul&gt;
+
+    &lt;/nav&gt;
+&lt;/header&gt;
+
+
+
+&lt;section id=&#34;main&#34;&gt;
+  &lt;h1 itemprop=&#34;name&#34; id=&#34;title&#34;&gt;你好，Hugo&lt;/h1&gt;
+  &lt;div&gt;
+        &lt;article itemprop=&#34;articleBody&#34; id=&#34;content&#34;&gt;
+           
+        &lt;/article&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;script type=&#34;text/javascript&#34;
+  src=&#34;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&#34;&gt;
+&lt;/script&gt;
+
+
+
+&lt;aside id=&#34;meta&#34;&gt;
+
+    &lt;div&gt;
+        &lt;section id=&#34;datecount&#34;&gt;
+          &lt;h4 id=&#34;date&#34;&gt; Wed Sep 23, 2015 &lt;/h4&gt;
+          &lt;h5 id=&#34;wc&#34;&gt; 100 Words &lt;/h5&gt;
+          &lt;h5 id=&#34;readtime&#34;&gt; Read in about 0 Min &lt;/h5&gt;
+        &lt;/section&gt;
+        &lt;ul id=&#34;categories&#34;&gt;
+          
+        &lt;/ul&gt;
+        &lt;ul id=&#34;tags&#34;&gt;
+          
+            &lt;li&gt; &lt;a href=&#34;http://ljxxcaijing.github.io/tags/development&#34;&gt;Development&lt;/a&gt; &lt;/li&gt;
+          
+            &lt;li&gt; &lt;a href=&#34;http://ljxxcaijing.github.io/tags/golang&#34;&gt;golang&lt;/a&gt; &lt;/li&gt;
+          
+        &lt;/ul&gt;
+    &lt;/div&gt;
+
+    &lt;div&gt;
+        &lt;section id=&#34;prev&#34;&gt;
+            &amp;nbsp;&lt;a class=&#34;previous&#34; href=&#34;http://ljxxcaijing.github.io/post/two/&#34;&gt;&lt;i class=&#34;icon-arrow-left&#34;&gt;&lt;/i&gt; two&lt;/a&gt;&lt;br&gt;
+        &lt;/section&gt;&lt;section id=&#34;next&#34;&gt;
+            &amp;nbsp;&lt;a class=&#34;next&#34; href=&#34;http://ljxxcaijing.github.io/welcome/&#34;&gt;你好，Hugo &lt;i class=&#34;icon-arrow-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;/section&gt;
+    &lt;/div&gt;
+
+    &lt;div&gt;
+        &lt;section id=&#34;author&#34;&gt;
+             &lt;h4&gt;About the Author:&lt;/h4&gt; 
+            &lt;p&gt;
+            Steve Francia has been responsible for two of the largest commercial open
+            source projects as the current Chief Operator of the &lt;a href=&#34;http://docker.com&#34;&gt;Docker Project&lt;/a&gt; and the
+            former Chief Developer Advocate of &lt;a href=&#34;http://mongodb.com&#34;&gt;MongoDB&lt;/a&gt;. Steve has also run some of the top
+            community-based open source projects: &lt;a href=&#34;http://vim.spf13.com&#34;&gt;spf13-vim&lt;/a&gt;, &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt;, &lt;a href=&#34;http://github.com/spf13/cobra&#34;&gt;Cobra&lt;/a&gt; &amp; &lt;a href=&#34;http://github.com/spf13/viper&#34;&gt;Viper&lt;/a&gt;
+            &lt;/p&gt;&lt;p&gt;
+            He loves open source and is thrilled to be able to work on it full-time and
+            then some. In writing, Steve tweets as &lt;a href=&#34;http://twitter.com/spf13&#34;&gt;@spf13&lt;/a&gt;, 
+            codes on &lt;a href=&#34;http://github.com/spf13&#34;&gt;GitHub&lt;/a&gt;, 
+            blogs at &lt;a href=&#34;http://spf13.com&#34;&gt;spf13.com&lt;/a&gt;,
+            connects on &lt;a href=&#34;http://www.linkedin.com/in/stevefrancia&#34;&gt;LinkedIn&lt;/a&gt;,
+            ocassionally posts on &lt;a title=&#34;Author: Steve Francia on Google+&#34; rel=&#34;author&#34; href=&#34;https://plus.google.com/+SteveFrancia/posts?rel=author&#34; target=&#34;_blank&#34;&gt;Google+&lt;/a&gt; 
+            and has written a few books for O&#39;Reilly.
+            &lt;/p&gt;&lt;p&gt;
+            In person, he enjoys giving talks and workshops and spending time with the
+            developer community around the world. When not coding, he is usually having fun
+            outdoors with his wife and four children.
+            &lt;/p&gt;
+        &lt;/section&gt;
+    &lt;/div&gt;
+
+&lt;/aside&gt;
+
+&lt;meta itemprop=&#34;wordCount&#34; content=&#34;0&#34;&gt;
+&lt;meta itemprop=&#34;datePublished&#34; content=&#34;2015-09-23&#34;&gt;
+&lt;meta itemprop=&#34;url&#34; content=&#34;http://ljxxcaijing.github.io/content/welcome/&#34;&gt;
+
+
+&lt;aside id=comments&gt;
+    &lt;div&gt;&lt;h2&gt; Comments &lt;/h2&gt;&lt;/div&gt;
+    
+&lt;/aside&gt;
+
+&lt;footer&gt;
+  &lt;div&gt;
+    &lt;p&gt;
+    &amp;copy; 2013-14 &lt;span itemprop=&#34;author&#34; itemscope itemtype=&#34;http://schema.org/Person&#34;&gt;
+        &lt;span itemprop=&#34;name&#34;&gt;Steve Francia.&lt;/span&gt;&lt;/span&gt;
+    &lt;a href=&#34;http://creativecommons.org/licenses/by/3.0/&#34; title=&#34;Creative Commons Attribution&#34;&gt;Some rights reserved&lt;/a&gt;; 
+    please attribute properly and link back. &lt;br&gt;
+    Powered by &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt;.
+        Hosted by &lt;a href=&#34;http://servergrove.com&#34;&gt;ServerGrove&lt;/a&gt;.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/footer&gt;
+&lt;script type=&#34;text/javascript&#34;&gt;
+(function(){var j=function(a,b){return window.getComputedStyle?getComputedStyle(a).getPropertyValue(b):a.currentStyle[b]};var k=function(a,b,c){if(a.addEventListener)a.addEventListener(b,c,false);else a.attachEvent(&#39;on&#39;+b,c)};var l=function(a,b){for(key in b)if(b.hasOwnProperty(key))a[key]=b[key];return a};window.fitText=function(d,e,f){var g=l({&#39;minFontSize&#39;:-1/0,&#39;maxFontSize&#39;:1/0},f);var h=function(a){var b=e||1;var c=function(){a.style.fontSize=Math.max(Math.min(a.clientWidth/(b*10),parseFloat(g.maxFontSize)),parseFloat(g.minFontSize))+&#39;px&#39;};c();k(window,&#39;resize&#39;,c)};if(d.length)for(var i=0;i&lt;d.length;i++)h(d[i]);else h(d);return d}})();
+fitText(document.getElementById(&#39;title&#39;), 1)
+&lt;/script&gt;
+&lt;script&gt;
+  (function(i,s,o,g,r,a,m){i[&#39;GoogleAnalyticsObject&#39;]=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,&#39;script&#39;,&#39;//www.google-analytics.com/analytics.js&#39;,&#39;ga&#39;);
+  ga(&#39;create&#39;, &#39;UA-7131036-1&#39;, &#39;spf13.com&#39;);
+  ga(&#39;require&#39;, &#39;linkid&#39;, &#39;linkid.js&#39;);
+  ga(&#39;require&#39;, &#39;displayfeatures&#39;);
+  ga(&#39;send&#39;, &#39;pageview&#39;);
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>
