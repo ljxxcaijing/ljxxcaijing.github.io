@@ -19,63 +19,59 @@
             <guid>http://ljxxcaijing.github.io/post/first/</guid>
             <description>
 
-&lt;h1 id=&#34;hello-hugo:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;Hello, Hugo!&lt;/h1&gt;
+&lt;p&gt;##Hello, Hugo!&lt;/p&gt;
 
 &lt;p&gt;历经一个星期，博客终于出来了。&lt;/p&gt;
 
 &lt;h2 id=&#34;首先撒花:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;首先撒花～&lt;/h2&gt;
 
-&lt;p&gt;先介绍一下Hugo吧
-Hugo is a general-purpose website framework.
-Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。&lt;/p&gt;
+&lt;p&gt;先介绍一下Hugo吧&lt;br /&gt;
+1.Hugo is a general-purpose website framework.&lt;br /&gt;
+2.Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。&lt;/p&gt;
 
-&lt;h2 id=&#34;hugo两大特点就是-简单和快速:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;Hugo两大特点就是；简单和快速。&lt;/h2&gt;
+&lt;h2 id=&#34;3-hugo两大特点就是-简单-和-快速:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;3.Hugo两大特点就是：“简单”和“快速”。&lt;/h2&gt;
 
-&lt;h1 id=&#34;用hugo搭blog步骤如下:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;用Hugo搭blog步骤如下：&lt;/h1&gt;
+&lt;p&gt;###用Hugo搭blog步骤如下：&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;在Github上建一个仓库，并命名为“你的用户名.github.io”&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;Mac下直接使用 Homebrew 安装Hugo,直接在终端里面输入
+&lt;li&gt;&lt;p&gt;Mac下直接使用 Homebrew 安装Hugo,直接在终端里面输入&lt;br /&gt;
 &lt;pre&gt;&lt;code&gt;$ brew new Hugo&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;使用Hugo建立网站,在我们想要搭建博客的目录下创建新的 hugo 站点
-&lt;pre&gt;&lt;code&gt;$ mkdir blog&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;$ hugo new site blog/&lt;/code&gt;&lt;/pre&gt;
+&lt;li&gt;&lt;p&gt;使用Hugo建立网站,在我们想要搭建博客的目录下创建新的 hugo 站点&lt;br /&gt;
+&lt;pre&gt;&lt;code&gt;$ mkdir blog
+$ hugo new site blog/&lt;/code&gt;&lt;/pre&gt;
 这样就把Hugo的相关文件建立在了blog目录中&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;进入blog目录，看一下其中的内容
-&lt;pre&gt;&lt;code&gt;
-$ cd blog
+&lt;li&gt;&lt;p&gt;进入blog目录，看一下其中的内容&lt;br /&gt;
+&lt;pre&gt;&lt;code&gt;$ cd blog
 $ ls&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;可以看到
+&lt;p&gt;可以看到&lt;br /&gt;
  &lt;pre&gt;&lt;code&gt;▸ archetypes/
  ▸ content/
  ▸ layouts/
  ▸ static/
    config.toml&lt;/pre&gt;&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;5.其中config.toml是网站的配置文件，包括baseurl, title, copyright等网站参数。
-打开config.toml
-修改其中的baseurl
+&lt;p&gt;其中config.toml是网站的配置文件，包括baseurl, title, copyright等网站参数。&lt;br /&gt;
+打开config.toml，修改其中的baseurl&lt;br /&gt;
 &lt;pre&gt;&lt;code&gt; baseurl = &amp;ldquo;&lt;a href=&#34;http://ljxxcaijing.github.io&amp;quot;&#34;&gt;http://ljxxcaijing.github.io&amp;quot;&lt;/a&gt; &lt;/pre&gt;&lt;/code&gt;
-这样就可以连接到github上面的页面
-一会儿再做相关的完善&lt;/p&gt;
+这样就可以连接到github上面的页面，一会儿再做相关的完善&lt;/p&gt;
 
-&lt;p&gt;6.然后开始配置主题
-Hugo有很多模版，我选择的模版是 hugo-multi-bootswatch
-先创建一个themes的文件夹，然后把主题有关的文件clone进去
+&lt;p&gt;5.然后开始配置主题&lt;br /&gt;
+Hugo有很多模版，我选择的模版是 hugo-multi-bootswatch&lt;br /&gt;
+先创建一个themes的文件夹，然后把主题有关的文件clone进去&lt;br /&gt;
 &lt;pre&gt;&lt;code&gt;$ cd blog
 $ mkdir themes
 $ cd themes
 $ git clone &lt;a href=&#34;https://github.com/mpas/hugo-multi-bootswatch.git&#34;&gt;https://github.com/mpas/hugo-multi-bootswatch.git&lt;/a&gt; &amp;ndash;depth=1&lt;/pre&gt;&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;7.主题下载好了以后，再打开config.toml完善配置
-例如：&lt;/p&gt;
-
-&lt;p&gt;&lt;pre&gt;&lt;code&gt;# 基本信息&lt;/p&gt;
+&lt;p&gt;6.主题下载好了以后，再打开config.toml完善配置&lt;br /&gt;
+例如：
+&lt;pre&gt;&lt;code&gt;# 基本信息&lt;/p&gt;
 
 &lt;p&gt;baseurl = &amp;ldquo;&lt;a href=&#34;http://ihuangmx.github.io&amp;quot;&#34;&gt;http://ihuangmx.github.io&amp;quot;&lt;/a&gt;
 languageCode = &amp;ldquo;en-us&amp;rdquo;
@@ -99,8 +95,10 @@ posts_list_header = &amp;quot;文章列表&amp;quot;
 &lt;p&gt;[params.theme]&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;inverse = true
-name = &amp;quot;flatly&amp;quot;&amp;lt;/pre&amp;gt;&amp;lt;/code&amp;gt;
+name = &amp;quot;flatly&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/pre&gt;&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;主题选择好以后，我们可以先在本地运行一下blog，看一下效果。
 在blog目录中运行：
@@ -110,25 +108,26 @@ name = &amp;quot;flatly&amp;quot;&amp;lt;/pre&amp;gt;&amp;lt;/code&amp;gt;
 即可预览blog的效果&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;一个blog还需要一些必备特殊的功能，首先就是代码高亮
-我选择安装一个js库：highlightjs插件
-使用npm下载安装highlightjs
-&lt;pre&gt;&lt;/code&gt;$ npm install highlight.js&lt;/pre&gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;一个blog还需要一些必备特殊的功能，首先就是代码高亮&lt;br /&gt;
+我选择安装一个js库：highlightjs插件&lt;br /&gt;
+使用npm下载安装highlightjs&lt;br /&gt;
+&lt;pre&gt;&lt;/code&gt;$ npm install highlight.js&lt;/pre&gt;&lt;/code&gt;&lt;br /&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;然后打开layouts/partials/header_includes.html
-加上以下代码：&lt;/p&gt;
-
-&lt;p&gt;&lt;pre&gt;&lt;code&gt;&lt;script src=&#34;https://yandex.st/highlightjs/8.0/highlight.min.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt;然后打开layouts/partials/header_includes.html&lt;br /&gt;
+加上以下代码：&lt;br /&gt;
+&lt;pre&gt;&lt;code&gt;&lt;script src=&#34;https://yandex.st/highlightjs/8.0/highlight.min.js&#34;&gt;&lt;/script&gt;
 &lt;link rel=&#34;stylesheet&#34; href=&#34;https://yandex.st/highlightjs/8.0/styles/default.min.css&#34;&gt;
 &lt;script&gt;hljs.initHighlightingOnLoad();&lt;/script&gt;&lt;/pre&gt;&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;这样以后，你就可以写博客的时候，让自己的代码高亮，使用的时候请把书名号换成英文的
 &lt;pre&gt;&lt;code&gt;《pre》《code》需要高亮的东西《/pre》《code》&lt;/pre&gt;&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;9.然后就可以开始写博文啦，使用Hugo新建名为 first.md 的markdown文档,放到 post 目录
+&lt;p&gt;8.然后就可以开始写博文啦&lt;br /&gt;
+使用Hugo新建名为 first.md 的markdown文档,放到 post 目录&lt;br /&gt;
+以后写文章也是要在post目录中新建
 &lt;pre&gt;&lt;code&gt;$ hugo new post/first.md&lt;/pre&gt;&lt;/code&gt;
-编辑first.md
+编辑first.md&lt;br /&gt;
 以下内容为一般模版：&lt;pre&gt;&lt;code&gt;
 +++
 title         = &amp;ldquo;文章标题&amp;rdquo;
@@ -139,9 +138,9 @@ date        = &amp;ldquo;2015-01-01&amp;rdquo;
 正文，你好 Hugo ！&lt;/pre&gt;&lt;code&gt;&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;最后一步是blog成功的关键：部署！
-也就是把相关内容push到github上面去
-首先在blog目录下部署，通过命令来生成 public 目录，然后将public部署到服务器，同时设置了URL&lt;/li&gt;
+&lt;li&gt;最后一步是blog成功的关键：部署！&lt;br /&gt;
+也就是把相关内容push到github上面去&lt;br /&gt;
+首先在blog目录下部署，通过命令来生成 public 目录，然后将public部署到服务器，同时设置了URL&lt;br /&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;pre&gt;&lt;code&gt;$ hugo &amp;ndash;theme= &amp;ndash;baseUrl=hugo-multi-bootswatch &amp;ldquo;&lt;a href=&#34;http://ljxxcaijing.github.io/&amp;quot;&#34;&gt;http://ljxxcaijing.github.io/&amp;quot;&lt;/a&gt;&lt;/pre&gt;&lt;/code&gt;
@@ -159,17 +158,27 @@ $ git push -u origin master // 推送到远程仓库&lt;/pre&gt;&lt;/code&gt;&lt
 &lt;a href=&#34;https://ljxxcaijing.github.io&#34;&gt;https://ljxxcaijing.github.io&lt;/a&gt;
 看到自己的blog啦&lt;/p&gt;
 
-&lt;p&gt;参考教程：
+&lt;ol&gt;
+&lt;li&gt;之后如果写了新的文章，可以在blog目录下通过以下步骤更新
+&lt;pre&gt;&lt;code&gt;$ hugo // 更新 public
+$ cd public
+$ git add -A
+$ git commit -m &amp;ldquo;文章更新&amp;rdquo;
+$ git push -u origin master&lt;/pre&gt;&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;###参考教程：
 1.&lt;a href=&#34;http://www.gohugo.org/&#34;&gt;Hugo中文文档&lt;/a&gt;
 2.&lt;a href=&#34;http://www.jianshu.com/p/b66754c0baa6&#34;&gt;使用 Hugo + Github 搭建个人博客
 &lt;/a&gt;
-3.&lt;a href=&#34;http://nanshu.wang/post/2015-01-31/&#34;&gt;Hugo静态网站生成器中文教程&lt;/a&gt;&lt;/p&gt;
+3.&lt;a href=&#34;http://nanshu.wang/post/2015-01-31/&#34;&gt;Hugo静态网站生成器中文教程&lt;/a&gt;
+4.&lt;a href=&#34;https://github.com/spf13&#34;&gt;Hugo作者的github&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;最后是感谢时间：
-感谢我的爸爸妈妈，感谢木犀。
-感谢诗柔帮我解决git有关问题，感谢朱组长慧眼发现我的仓库命名出错。
-谢谢大家！
-鞠躬！撒花！&lt;/p&gt;
+&lt;p&gt;最后是感谢时间：&lt;/p&gt;
+
+&lt;p&gt;感谢我的爸爸妈妈，感谢木犀。&lt;br /&gt;
+感谢诗柔帮我解决git有关问题，感谢朱组长慧眼发现我的仓库命名出错。&lt;br /&gt;
+谢谢大家！ 鞠躬！ 撒花！&lt;/p&gt;
 </description>
           </item>
         
