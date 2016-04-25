@@ -27,9 +27,10 @@
 
 &lt;p&gt;先介绍一下Hugo吧&lt;br /&gt;
 1.Hugo is a general-purpose website framework.&lt;br /&gt;
-2.Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。&lt;/p&gt;
+2.Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。&lt;br /&gt;
+3.Hugo两大特点就是：“简单”和“快速”。&lt;/p&gt;
 
-&lt;h2 id=&#34;3-hugo两大特点就是-简单-和-快速:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;3.Hugo两大特点就是：“简单”和“快速”。&lt;/h2&gt;
+&lt;hr /&gt;
 
 &lt;h1 id=&#34;用hugo搭blog步骤如下:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;用Hugo搭blog步骤如下：&lt;/h1&gt;
 
@@ -119,11 +120,9 @@ name = &amp;quot;flatly&amp;quot;
 
 &lt;p&gt;然后打开layouts/partials/header_includes.html&lt;br /&gt;
 加上以下代码：&lt;br /&gt;
-&lt;pre&gt;&lt;code&gt;
-    &lt;script src=&#34;https://yandex.st/highlightjs/8.0/highlight.min.js&#34;&gt;&lt;/script&gt;
+&lt;pre&gt;&lt;code&gt;&lt;script src=&#34;https://yandex.st/highlightjs/8.0/highlight.min.js&#34;&gt;&lt;/script&gt;
 &lt;link rel=&#34;stylesheet&#34; href=&#34;https://yandex.st/highlightjs/8.0/styles/default.min.css&#34;&gt;
-&lt;script&gt;hljs.initHighlightingOnLoad();&lt;/script&gt;
-&lt;/pre&gt;&lt;/code&gt;&lt;/p&gt;
+&lt;script&gt;hljs.initHighlightingOnLoad();&lt;/script&gt;&lt;/pre&gt;&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;这样以后，你就可以写文章的时候，让自己的代码高亮&lt;br /&gt;
 格式如下，使用的时候注意把书名号换成英文的
@@ -171,15 +170,16 @@ $ git push -u origin master // 推送到远程仓库&lt;/pre&gt;&lt;/code&gt;&lt
 $ cd public
 $ git add -A
 $ git commit -m &amp;ldquo;文章更新&amp;rdquo;
-$ git push -u origin master&lt;/pre&gt;&lt;/code&gt;&lt;br /&gt;&lt;/li&gt;
+$ git push -u origin master&lt;/pre&gt;&lt;/code&gt;&lt;br /&gt;
+不过不要着急，过两分钟再去刷新你的blog，虽然Hugo很快，但还是做不到几秒钟就能完成部署和更新&lt;br /&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h1 id=&#34;参考教程:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;参考教程：&lt;/h1&gt;
 
-&lt;p&gt;1.&lt;a href=&#34;http://www.gohugo.org/&#34;&gt;Hugo中文文档&lt;/a&gt;
+&lt;p&gt;1.&lt;a href=&#34;http://www.gohugo.org/&#34;&gt;Hugo中文文档&lt;/a&gt;&lt;br /&gt;
 2.&lt;a href=&#34;http://www.jianshu.com/p/b66754c0baa6&#34;&gt;使用 Hugo + Github 搭建个人博客
-&lt;/a&gt;
-3.&lt;a href=&#34;http://nanshu.wang/post/2015-01-31/&#34;&gt;Hugo静态网站生成器中文教程&lt;/a&gt;
+&lt;/a&gt;&lt;br /&gt;
+3.&lt;a href=&#34;http://nanshu.wang/post/2015-01-31/&#34;&gt;Hugo静态网站生成器中文教程&lt;/a&gt;&lt;br /&gt;
 4.&lt;a href=&#34;https://github.com/spf13&#34;&gt;Hugo作者的github&lt;/a&gt;&lt;/p&gt;
 
 &lt;h1 id=&#34;最后是感谢时间:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;最后是感谢时间：&lt;/h1&gt;

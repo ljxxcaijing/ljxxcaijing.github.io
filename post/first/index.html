@@ -158,9 +158,10 @@
 
 <p>先介绍一下Hugo吧<br />
 1.Hugo is a general-purpose website framework.<br />
-2.Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。</p>
+2.Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。<br />
+3.Hugo两大特点就是：“简单”和“快速”。</p>
 
-<h2 id="3-hugo两大特点就是-简单-和-快速:e8fb9c67eba912c72729806db31eaa1b">3.Hugo两大特点就是：“简单”和“快速”。</h2>
+<hr />
 
 <h1 id="用hugo搭blog步骤如下:e8fb9c67eba912c72729806db31eaa1b">用Hugo搭blog步骤如下：</h1>
 
@@ -250,11 +251,9 @@ name = &quot;flatly&quot;
 
 <p>然后打开layouts/partials/header_includes.html<br />
 加上以下代码：<br />
-<pre><code>
-    <script src="https://yandex.st/highlightjs/8.0/highlight.min.js"></script>
+<pre><code><script src="https://yandex.st/highlightjs/8.0/highlight.min.js"></script>
 <link rel="stylesheet" href="https://yandex.st/highlightjs/8.0/styles/default.min.css">
-<script>hljs.initHighlightingOnLoad();</script>
-</pre></code></p>
+<script>hljs.initHighlightingOnLoad();</script></pre></code></p>
 
 <p>这样以后，你就可以写文章的时候，让自己的代码高亮<br />
 格式如下，使用的时候注意把书名号换成英文的
@@ -302,15 +301,16 @@ $ git push -u origin master // 推送到远程仓库</pre></code></p>
 $ cd public
 $ git add -A
 $ git commit -m &ldquo;文章更新&rdquo;
-$ git push -u origin master</pre></code><br /></li>
+$ git push -u origin master</pre></code><br />
+不过不要着急，过两分钟再去刷新你的blog，虽然Hugo很快，但还是做不到几秒钟就能完成部署和更新<br /></li>
 </ol>
 
 <h1 id="参考教程:e8fb9c67eba912c72729806db31eaa1b">参考教程：</h1>
 
-<p>1.<a href="http://www.gohugo.org/">Hugo中文文档</a>
+<p>1.<a href="http://www.gohugo.org/">Hugo中文文档</a><br />
 2.<a href="http://www.jianshu.com/p/b66754c0baa6">使用 Hugo + Github 搭建个人博客
-</a>
-3.<a href="http://nanshu.wang/post/2015-01-31/">Hugo静态网站生成器中文教程</a>
+</a><br />
+3.<a href="http://nanshu.wang/post/2015-01-31/">Hugo静态网站生成器中文教程</a><br />
 4.<a href="https://github.com/spf13">Hugo作者的github</a></p>
 
 <h1 id="最后是感谢时间:e8fb9c67eba912c72729806db31eaa1b">最后是感谢时间：</h1>
@@ -383,7 +383,7 @@ $ git push -u origin master</pre></code><br /></li>
 
 </aside>
 
-<meta itemprop="wordCount" content="274">
+<meta itemprop="wordCount" content="275">
 <meta itemprop="datePublished" content="2016-04-24">
 <meta itemprop="url" content="http://ljxxcaijing.github.io/post/first/">
 
