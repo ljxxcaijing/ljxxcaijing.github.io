@@ -6,7 +6,7 @@
     <description>Recent content on Never But Life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 24 Apr 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://ljxxcaijing.github.io/index.xml" rel="self" type="application/rss+xml" />
     
       
@@ -14,12 +14,12 @@
           <item>
             <title>10个步骤使用Hugo搭建github博客</title>
             <link>http://ljxxcaijing.github.io/post/first/</link>
-            <pubDate>Fri, 22 Apr 2016 00:00:00 +0000</pubDate>
+            <pubDate>Sun, 24 Apr 2016 00:00:00 +0000</pubDate>
             
             <guid>http://ljxxcaijing.github.io/post/first/</guid>
             <description>
 
-&lt;p&gt;##Hello, Hugo!&lt;/p&gt;
+&lt;h1 id=&#34;hello-hugo:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;Hello, Hugo!&lt;/h1&gt;
 
 &lt;p&gt;历经一个星期，博客终于出来了。&lt;/p&gt;
 
@@ -31,7 +31,7 @@
 
 &lt;h2 id=&#34;3-hugo两大特点就是-简单-和-快速:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;3.Hugo两大特点就是：“简单”和“快速”。&lt;/h2&gt;
 
-&lt;p&gt;###用Hugo搭blog步骤如下：&lt;/p&gt;
+&lt;h1 id=&#34;用hugo搭blog步骤如下:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;用Hugo搭blog步骤如下：&lt;/h1&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;在Github上建一个仓库，并命名为“你的用户名.github.io”&lt;/p&gt;&lt;/li&gt;
@@ -61,17 +61,19 @@ $ ls&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;pre&gt;&lt;code&gt; baseurl = &amp;ldquo;&lt;a href=&#34;http://ljxxcaijing.github.io&amp;quot;&#34;&gt;http://ljxxcaijing.github.io&amp;quot;&lt;/a&gt; &lt;/pre&gt;&lt;/code&gt;
 这样就可以连接到github上面的页面，一会儿再做相关的完善&lt;/p&gt;
 
-&lt;p&gt;5.然后开始配置主题&lt;br /&gt;
-Hugo有很多模版，我选择的模版是 hugo-multi-bootswatch&lt;br /&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;然后开始配置主题&lt;br /&gt;
+Hugo有很多模版，我选择的模版是 hugo-multi-bootswatch（不过我不是很喜欢这个主题，所以后来又换了别的）&lt;br /&gt;
 先创建一个themes的文件夹，然后把主题有关的文件clone进去&lt;br /&gt;
 &lt;pre&gt;&lt;code&gt;$ cd blog
 $ mkdir themes
 $ cd themes
-$ git clone &lt;a href=&#34;https://github.com/mpas/hugo-multi-bootswatch.git&#34;&gt;https://github.com/mpas/hugo-multi-bootswatch.git&lt;/a&gt; &amp;ndash;depth=1&lt;/pre&gt;&lt;/code&gt;&lt;/p&gt;
+$ git clone &lt;a href=&#34;https://github.com/mpas/hugo-multi-bootswatch.git&#34;&gt;https://github.com/mpas/hugo-multi-bootswatch.git&lt;/a&gt; &amp;ndash;depth=1&lt;/pre&gt;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;p&gt;6.主题下载好了以后，再打开config.toml完善配置&lt;br /&gt;
+&lt;li&gt;&lt;p&gt;主题下载好了以后，再打开config.toml完善配置&lt;br /&gt;
 例如：
-&lt;pre&gt;&lt;code&gt;# 基本信息&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# 基本信息&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;baseurl = &amp;ldquo;&lt;a href=&#34;http://ihuangmx.github.io&amp;quot;&#34;&gt;http://ihuangmx.github.io&amp;quot;&lt;/a&gt;
 languageCode = &amp;ldquo;en-us&amp;rdquo;
@@ -108,22 +110,27 @@ name = &amp;quot;flatly&amp;quot;
 即可预览blog的效果&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;一个blog还需要一些必备特殊的功能，首先就是代码高亮&lt;br /&gt;
-我选择安装一个js库：highlightjs插件&lt;br /&gt;
-使用npm下载安装highlightjs&lt;br /&gt;
+&lt;li&gt;
+一个blog还需要一些必备特殊的功能，首先就是代码高亮&lt;br /&gt;
+使代码高亮有多种方法，我选择的是安装一个highlight.js插件&lt;br /&gt;
+使用npm下载安装highlight.js&lt;br /&gt;
 &lt;pre&gt;&lt;/code&gt;$ npm install highlight.js&lt;/pre&gt;&lt;/code&gt;&lt;br /&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;然后打开layouts/partials/header_includes.html&lt;br /&gt;
 加上以下代码：&lt;br /&gt;
-&lt;pre&gt;&lt;code&gt;&lt;script src=&#34;https://yandex.st/highlightjs/8.0/highlight.min.js&#34;&gt;&lt;/script&gt;
+&lt;pre&gt;&lt;code&gt;
+    &lt;script src=&#34;https://yandex.st/highlightjs/8.0/highlight.min.js&#34;&gt;&lt;/script&gt;
 &lt;link rel=&#34;stylesheet&#34; href=&#34;https://yandex.st/highlightjs/8.0/styles/default.min.css&#34;&gt;
-&lt;script&gt;hljs.initHighlightingOnLoad();&lt;/script&gt;&lt;/pre&gt;&lt;/code&gt;&lt;/p&gt;
+&lt;script&gt;hljs.initHighlightingOnLoad();&lt;/script&gt;
+&lt;/pre&gt;&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;这样以后，你就可以写博客的时候，让自己的代码高亮，使用的时候请把书名号换成英文的
+&lt;p&gt;这样以后，你就可以写文章的时候，让自己的代码高亮&lt;br /&gt;
+格式如下，使用的时候注意把书名号换成英文的
 &lt;pre&gt;&lt;code&gt;《pre》《code》需要高亮的东西《/pre》《code》&lt;/pre&gt;&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;8.然后就可以开始写博文啦&lt;br /&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;然后就可以开始写博文啦&lt;br /&gt;
 使用Hugo新建名为 first.md 的markdown文档,放到 post 目录&lt;br /&gt;
 以后写文章也是要在post目录中新建
 &lt;pre&gt;&lt;code&gt;$ hugo new post/first.md&lt;/pre&gt;&lt;/code&gt;
@@ -135,12 +142,11 @@ tags         = [&amp;ldquo;标签1&amp;rdquo;, &amp;ldquo;标签2&amp;rdquo;]
 categories    = [&amp;ldquo;分类1&amp;rdquo;,&amp;ldquo;分类2&amp;rdquo;]
 date        = &amp;ldquo;2015-01-01&amp;rdquo;
 +++
-正文，你好 Hugo ！&lt;/pre&gt;&lt;code&gt;&lt;/p&gt;
+正文，你好 Hugo ！&lt;/pre&gt;&lt;code&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;ol&gt;
-&lt;li&gt;最后一步是blog成功的关键：部署！&lt;br /&gt;
+&lt;li&gt;&lt;p&gt;最后一步是blog成功的关键：部署！&lt;br /&gt;
 也就是把相关内容push到github上面去&lt;br /&gt;
-首先在blog目录下部署，通过命令来生成 public 目录，然后将public部署到服务器，同时设置了URL&lt;br /&gt;&lt;/li&gt;
+首先在blog目录下部署，通过命令来生成 public 目录，然后将public部署到服务器，同时设置了URL&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;pre&gt;&lt;code&gt;$ hugo &amp;ndash;theme= &amp;ndash;baseUrl=hugo-multi-bootswatch &amp;ldquo;&lt;a href=&#34;http://ljxxcaijing.github.io/&amp;quot;&#34;&gt;http://ljxxcaijing.github.io/&amp;quot;&lt;/a&gt;&lt;/pre&gt;&lt;/code&gt;
@@ -159,22 +165,24 @@ $ git push -u origin master // 推送到远程仓库&lt;/pre&gt;&lt;/code&gt;&lt
 看到自己的blog啦&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;之后如果写了新的文章，可以在blog目录下通过以下步骤更新
+&lt;li&gt;
+之后如果写了新的文章，可以在blog目录下通过以下步骤更新
 &lt;pre&gt;&lt;code&gt;$ hugo // 更新 public
 $ cd public
 $ git add -A
 $ git commit -m &amp;ldquo;文章更新&amp;rdquo;
-$ git push -u origin master&lt;/pre&gt;&lt;/code&gt;&lt;/li&gt;
+$ git push -u origin master&lt;/pre&gt;&lt;/code&gt;&lt;br /&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;###参考教程：
-1.&lt;a href=&#34;http://www.gohugo.org/&#34;&gt;Hugo中文文档&lt;/a&gt;
+&lt;h1 id=&#34;参考教程:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;参考教程：&lt;/h1&gt;
+
+&lt;p&gt;1.&lt;a href=&#34;http://www.gohugo.org/&#34;&gt;Hugo中文文档&lt;/a&gt;
 2.&lt;a href=&#34;http://www.jianshu.com/p/b66754c0baa6&#34;&gt;使用 Hugo + Github 搭建个人博客
 &lt;/a&gt;
 3.&lt;a href=&#34;http://nanshu.wang/post/2015-01-31/&#34;&gt;Hugo静态网站生成器中文教程&lt;/a&gt;
 4.&lt;a href=&#34;https://github.com/spf13&#34;&gt;Hugo作者的github&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;最后是感谢时间：&lt;/p&gt;
+&lt;h1 id=&#34;最后是感谢时间:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;最后是感谢时间：&lt;/h1&gt;
 
 &lt;p&gt;感谢我的爸爸妈妈，感谢木犀。&lt;br /&gt;
 感谢诗柔帮我解决git有关问题，感谢朱组长慧眼发现我的仓库命名出错。&lt;br /&gt;

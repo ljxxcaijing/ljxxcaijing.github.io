@@ -23,8 +23,8 @@
 <meta property="og:image:height" content="" />
 <meta property="og:url" content="http://ljxxcaijing.github.io/post/first/">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2016-04-22"/>
-<meta property="article:modified_time" content="2016-04-22"/>
+<meta property="article:published_time" content="2016-04-24"/>
+<meta property="article:modified_time" content="2016-04-24"/>
 
 
 
@@ -150,7 +150,7 @@
         <article itemprop="articleBody" id="content">
            
 
-<p>##Hello, Hugo!</p>
+<h1 id="hello-hugo:e8fb9c67eba912c72729806db31eaa1b">Hello, Hugo!</h1>
 
 <p>历经一个星期，博客终于出来了。</p>
 
@@ -162,7 +162,7 @@
 
 <h2 id="3-hugo两大特点就是-简单-和-快速:e8fb9c67eba912c72729806db31eaa1b">3.Hugo两大特点就是：“简单”和“快速”。</h2>
 
-<p>###用Hugo搭blog步骤如下：</p>
+<h1 id="用hugo搭blog步骤如下:e8fb9c67eba912c72729806db31eaa1b">用Hugo搭blog步骤如下：</h1>
 
 <ol>
 <li><p>在Github上建一个仓库，并命名为“你的用户名.github.io”</p></li>
@@ -192,17 +192,19 @@ $ ls</code></pre></p></li>
 <pre><code> baseurl = &ldquo;<a href="http://ljxxcaijing.github.io&quot;">http://ljxxcaijing.github.io&quot;</a> </pre></code>
 这样就可以连接到github上面的页面，一会儿再做相关的完善</p>
 
-<p>5.然后开始配置主题<br />
-Hugo有很多模版，我选择的模版是 hugo-multi-bootswatch<br />
+<ol>
+<li><p>然后开始配置主题<br />
+Hugo有很多模版，我选择的模版是 hugo-multi-bootswatch（不过我不是很喜欢这个主题，所以后来又换了别的）<br />
 先创建一个themes的文件夹，然后把主题有关的文件clone进去<br />
 <pre><code>$ cd blog
 $ mkdir themes
 $ cd themes
-$ git clone <a href="https://github.com/mpas/hugo-multi-bootswatch.git">https://github.com/mpas/hugo-multi-bootswatch.git</a> &ndash;depth=1</pre></code></p>
+$ git clone <a href="https://github.com/mpas/hugo-multi-bootswatch.git">https://github.com/mpas/hugo-multi-bootswatch.git</a> &ndash;depth=1</pre></code></p></li>
 
-<p>6.主题下载好了以后，再打开config.toml完善配置<br />
+<li><p>主题下载好了以后，再打开config.toml完善配置<br />
 例如：
-<pre><code># 基本信息</p>
+<pre><code># 基本信息</p></li>
+</ol>
 
 <p>baseurl = &ldquo;<a href="http://ihuangmx.github.io&quot;">http://ihuangmx.github.io&quot;</a>
 languageCode = &ldquo;en-us&rdquo;
@@ -239,22 +241,27 @@ name = &quot;flatly&quot;
 即可预览blog的效果</p>
 
 <ol>
-<li>一个blog还需要一些必备特殊的功能，首先就是代码高亮<br />
-我选择安装一个js库：highlightjs插件<br />
-使用npm下载安装highlightjs<br />
+<li>
+一个blog还需要一些必备特殊的功能，首先就是代码高亮<br />
+使代码高亮有多种方法，我选择的是安装一个highlight.js插件<br />
+使用npm下载安装highlight.js<br />
 <pre></code>$ npm install highlight.js</pre></code><br /></li>
 </ol>
 
 <p>然后打开layouts/partials/header_includes.html<br />
 加上以下代码：<br />
-<pre><code><script src="https://yandex.st/highlightjs/8.0/highlight.min.js"></script>
+<pre><code>
+    <script src="https://yandex.st/highlightjs/8.0/highlight.min.js"></script>
 <link rel="stylesheet" href="https://yandex.st/highlightjs/8.0/styles/default.min.css">
-<script>hljs.initHighlightingOnLoad();</script></pre></code></p>
+<script>hljs.initHighlightingOnLoad();</script>
+</pre></code></p>
 
-<p>这样以后，你就可以写博客的时候，让自己的代码高亮，使用的时候请把书名号换成英文的
+<p>这样以后，你就可以写文章的时候，让自己的代码高亮<br />
+格式如下，使用的时候注意把书名号换成英文的
 <pre><code>《pre》《code》需要高亮的东西《/pre》《code》</pre></code></p>
 
-<p>8.然后就可以开始写博文啦<br />
+<ol>
+<li><p>然后就可以开始写博文啦<br />
 使用Hugo新建名为 first.md 的markdown文档,放到 post 目录<br />
 以后写文章也是要在post目录中新建
 <pre><code>$ hugo new post/first.md</pre></code>
@@ -266,12 +273,11 @@ tags         = [&ldquo;标签1&rdquo;, &ldquo;标签2&rdquo;]
 categories    = [&ldquo;分类1&rdquo;,&ldquo;分类2&rdquo;]
 date        = &ldquo;2015-01-01&rdquo;
 +++
-正文，你好 Hugo ！</pre><code></p>
+正文，你好 Hugo ！</pre><code></p></li>
 
-<ol>
-<li>最后一步是blog成功的关键：部署！<br />
+<li><p>最后一步是blog成功的关键：部署！<br />
 也就是把相关内容push到github上面去<br />
-首先在blog目录下部署，通过命令来生成 public 目录，然后将public部署到服务器，同时设置了URL<br /></li>
+首先在blog目录下部署，通过命令来生成 public 目录，然后将public部署到服务器，同时设置了URL</p></li>
 </ol>
 
 <p><pre><code>$ hugo &ndash;theme= &ndash;baseUrl=hugo-multi-bootswatch &ldquo;<a href="http://ljxxcaijing.github.io/&quot;">http://ljxxcaijing.github.io/&quot;</a></pre></code>
@@ -290,22 +296,24 @@ $ git push -u origin master // 推送到远程仓库</pre></code></p>
 看到自己的blog啦</p>
 
 <ol>
-<li>之后如果写了新的文章，可以在blog目录下通过以下步骤更新
+<li>
+之后如果写了新的文章，可以在blog目录下通过以下步骤更新
 <pre><code>$ hugo // 更新 public
 $ cd public
 $ git add -A
 $ git commit -m &ldquo;文章更新&rdquo;
-$ git push -u origin master</pre></code></li>
+$ git push -u origin master</pre></code><br /></li>
 </ol>
 
-<p>###参考教程：
-1.<a href="http://www.gohugo.org/">Hugo中文文档</a>
+<h1 id="参考教程:e8fb9c67eba912c72729806db31eaa1b">参考教程：</h1>
+
+<p>1.<a href="http://www.gohugo.org/">Hugo中文文档</a>
 2.<a href="http://www.jianshu.com/p/b66754c0baa6">使用 Hugo + Github 搭建个人博客
 </a>
 3.<a href="http://nanshu.wang/post/2015-01-31/">Hugo静态网站生成器中文教程</a>
 4.<a href="https://github.com/spf13">Hugo作者的github</a></p>
 
-<p>最后是感谢时间：</p>
+<h1 id="最后是感谢时间:e8fb9c67eba912c72729806db31eaa1b">最后是感谢时间：</h1>
 
 <p>感谢我的爸爸妈妈，感谢木犀。<br />
 感谢诗柔帮我解决git有关问题，感谢朱组长慧眼发现我的仓库命名出错。<br />
@@ -325,7 +333,7 @@ $ git push -u origin master</pre></code></li>
 
     <div>
         <section id="datecount">
-          <h4 id="date"> Fri Apr 22, 2016 </h4>
+          <h4 id="date"> Sun Apr 24, 2016 </h4>
           <h5 id="wc"> 300 Words </h5>
           <h5 id="readtime"> Read in about 2 Min </h5>
         </section>
@@ -375,8 +383,8 @@ $ git push -u origin master</pre></code></li>
 
 </aside>
 
-<meta itemprop="wordCount" content="273">
-<meta itemprop="datePublished" content="2016-04-22">
+<meta itemprop="wordCount" content="274">
+<meta itemprop="datePublished" content="2016-04-24">
 <meta itemprop="url" content="http://ljxxcaijing.github.io/post/first/">
 
 
