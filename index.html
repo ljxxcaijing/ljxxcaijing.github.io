@@ -146,7 +146,7 @@
       <div class="post-meta">Sun, Apr 24, 2016 -  Read in 2 Min </div>
     </header>
 
-    Hello, Hugo! 历经一个星期，博客终于出来了。 首先撒花～ 先介绍一下Hugo吧 1.Hugo is a general-purpose website framework. 2.Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。 3.Hugo两大特点就是：“简单”和“快速”。 用Hugo搭blog步骤如下： 在Github上建一个仓库，并命名为“你的用户名.github.io” Mac中直接使用 Homebrew 安装Hugo,直接在终端里面输入 $ brew new Hugo 使用Hugo建立网站,在我们想要搭建博客的目录下创建新的 hugo 站点 $ mkdir blog $ hugo new site blog/ 这样就把Hugo的相关文件建立在了blog目录中 进入blog目录，看一下其中的内容 $ cd blog $ ls 可以看到 ▸ archetypes/ ▸ content/ ▸ layouts/ ▸ static/ config.toml 其中config.toml是网站的配置文件，包括baseurl, title, copyright等网站参数。 打开config.toml，修改其中的baseurl baseurl = &ldquo;http://ljxxcaijing.github.io&quot; 这样就可以连接到github上面的页面，一会儿再做相关的完善 然后开始配置主题 Hugo有很多模版，我选择的模版是 hugo-multi-bootswatch（不过我不是很喜欢这个主题，所以后来又换了别的） 先创建一个themes的文件夹，然后把主题有关的文件clone进去 $ cd blog $ mkdir themes $ cd
+    Hello, Hugo! 历经一个星期，博客终于出来了。 首先撒花～ 先介绍一下Hugo吧 1.Hugo is a general-purpose website framework. 2.Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。 3.Hugo两大特点就是：“简单”和“快速”。 用Hugo搭blog步骤如下： 1, 在Github上建一个仓库，并命名为“你的用户名.github.io” 2, Mac中直接使用 Homebrew 安装Hugo,直接在终端里面输入 $ brew new Hugo 3, 使用Hugo建立网站,在我们想要搭建博客的目录下创建新的 hugo 站点 $ mkdir blog $ hugo new site blog/ 这样就把Hugo的相关文件建立在了blog目录中 4, 进入blog目录，看一下其中的内容 $ cd blog $ ls 可以看到 ▸ archetypes/ ▸ content/ ▸ layouts/ ▸ static/ config.toml 其中config.toml是网站的配置文件，包括baseurl, title, copyright等网站参数。 打开config.toml，修改其中的baseurl baseurl = &ldquo;http://ljxxcaijing.github.io&quot; 这样就可以连接到github上面的页面，一会儿再做相关的完善 5, 然后开始配置主题 Hugo有很多模版，我选择的模版是 hugo-multi-bootswatch（不过我不是很喜欢这个主题，所以后来又换了别的） 先创建一个themes的文件夹，然后把主题有关的文件clone进去 $ cd blog
     <footer>
         <a href='http://ljxxcaijing.github.io/post/first/'><nobr>Read more →</nobr></a>
     </footer>

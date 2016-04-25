@@ -166,21 +166,23 @@
 
 <h1 id="用hugo搭blog步骤如下:e8fb9c67eba912c72729806db31eaa1b">用Hugo搭blog步骤如下：</h1>
 
-<ol>
-<li><p>在Github上建一个仓库，并命名为“你的用户名.github.io”</p></li>
+<p>1,<br />
+在Github上建一个仓库，并命名为“你的用户名.github.io”</p>
 
-<li><p>Mac中直接使用 Homebrew 安装Hugo,直接在终端里面输入<br />
-<pre><code>$ brew new Hugo</code></pre></p></li>
+<p>2,<br />
+Mac中直接使用 Homebrew 安装Hugo,直接在终端里面输入<br />
+<pre><code>$ brew new Hugo</code></pre></p>
 
-<li><p>使用Hugo建立网站,在我们想要搭建博客的目录下创建新的 hugo 站点<br />
+<p>3,<br />
+使用Hugo建立网站,在我们想要搭建博客的目录下创建新的 hugo 站点<br />
 <pre><code>$ mkdir blog
 $ hugo new site blog/</code></pre>
-这样就把Hugo的相关文件建立在了blog目录中</p></li>
+这样就把Hugo的相关文件建立在了blog目录中</p>
 
-<li><p>进入blog目录，看一下其中的内容<br />
+<p>4,<br />
+进入blog目录，看一下其中的内容<br />
 <pre><code>$ cd blog
-$ ls</code></pre></p></li>
-</ol>
+$ ls</code></pre></p>
 
 <p>可以看到<br />
  <pre><code>▸ archetypes/
@@ -194,91 +196,85 @@ $ ls</code></pre></p></li>
 <pre><code> baseurl = &ldquo;<a href="http://ljxxcaijing.github.io&quot;">http://ljxxcaijing.github.io&quot;</a> </pre></code>
 这样就可以连接到github上面的页面，一会儿再做相关的完善</p>
 
-<ol>
-<li><p>然后开始配置主题<br />
+<p>5,<br />
+然后开始配置主题<br />
 Hugo有很多模版，我选择的模版是 hugo-multi-bootswatch（不过我不是很喜欢这个主题，所以后来又换了别的）<br />
 先创建一个themes的文件夹，然后把主题有关的文件clone进去<br />
 <pre><code>$ cd blog
 $ mkdir themes
 $ cd themes
-$ git clone <a href="https://github.com/mpas/hugo-multi-bootswatch.git">https://github.com/mpas/hugo-multi-bootswatch.git</a> &ndash;depth=1</pre></code></p></li>
+$ git clone <a href="https://github.com/mpas/hugo-multi-bootswatch.git">https://github.com/mpas/hugo-multi-bootswatch.git</a> &ndash;depth=1</pre></code></p>
 
-<li><p>主题下载好了以后，再打开config.toml完善配置<br />
-例如：
-<pre><code># 基本信息</p></li>
-</ol>
+<p>6,<br />
+主题下载好了以后，再打开config.toml完善配置<br />
+例如：<br />
+<pre><code># 基本信息</p>
 
-<p>baseurl = &ldquo;<a href="http://ihuangmx.github.io&quot;">http://ihuangmx.github.io&quot;</a>
-languageCode = &ldquo;en-us&rdquo;
-title = &ldquo;Never But Life&rdquo;
+<p>baseurl = &ldquo;<a href="http://ljxxcaijing.github.io&quot;">http://ljxxcaijing.github.io&quot;</a><br />
+languageCode = &ldquo;en-us&rdquo;<br />
+title = &ldquo;Never But Life&rdquo;<br />
 theme =&ldquo;hugo-multi-bootswatch&rdquo;</p>
 
 <p>[params]</p>
 
-<p>github = &ldquo;<a href="https://github.com/ihuangmx&quot;">https://github.com/ihuangmx&quot;</a></p>
+<p>github = &ldquo;<a href="https://github.com/ljxxcaijing&quot;">https://github.com/ljxxcaijing&quot;</a></p>
 
 <p>[params.strings]</p>
 
-<pre><code># 导航标题
-home_navbar_link = &quot;首页&quot;
-blog_navbar_link = &quot;文章&quot;
+<h1 id="导航标题:e8fb9c67eba912c72729806db31eaa1b">导航标题</h1>
 
-date_format = '2006.01.02'
-posts_list_header = &quot;文章列表&quot;
-</code></pre>
+<p>home_navbar_link = &ldquo;首页&rdquo;<br />
+blog_navbar_link = &ldquo;文章&rdquo;</p>
+
+<p>date_format = &lsquo;2016.04.24&rsquo;<br />
+posts_list_header = &ldquo;文章列表&rdquo;</p>
 
 <p>[params.theme]</p>
 
-<pre><code>inverse = true
-name = &quot;flatly&quot;
-</code></pre>
-
-<p></pre></code></p>
+<p>inverse = true<br />
+name = &ldquo;flatly&rdquo;<br />
+</pre></code></p>
 
 <p>主题选择好以后，我们可以先在本地运行一下blog，看一下效果。
 在blog目录中运行：
 <pre><code>$ hugo server &ndash;theme=hugo-multi-bootswatch &ndash;buildDrafts</pre></code>
-然后根据提示，在浏览器中打开
-<pre><code> <a href="http://localhost:1313">http://localhost:1313</a> </pre></code>
-即可预览blog的效果</p>
+然后根据提示，在浏览器中打开 <a href="http://localhost:1313">http://localhost:1313</a> 即可预览blog的效果</p>
 
-<ol>
-<li>
+<p>7,<br />
 一个blog还需要一些必备特殊的功能，首先就是代码高亮<br />
 使代码高亮有多种方法，我选择的是安装一个highlight.js插件<br />
 使用npm下载安装highlight.js<br />
-<pre></code>$ npm install highlight.js</pre></code><br /></li>
-</ol>
+<pre><code>$ npm install highlight.js</pre></code></p>
 
 <p>然后打开layouts/partials/header_includes.html<br />
-加上以下代码：<br />
-<pre><code><script src="https://yandex.st/highlightjs/8.0/highlight.min.js"></script>
-<link rel="stylesheet" href="https://yandex.st/highlightjs/8.0/styles/default.min.css">
-<script>hljs.initHighlightingOnLoad();</script></pre></code></p>
+加上以下代码： （使用的时候注意把书名号换成英文的）<br />
+<pre><code>《script src=&ldquo;<a href="http://cdn.bootcss.com/highlight.js/9.0.0/highlight.min.js&quot;&gt;《/script&gt;">http://cdn.bootcss.com/highlight.js/9.0.0/highlight.min.js&quot;&gt;《/script&gt;</a>
+《link href=&ldquo;<a href="http://cdn.bootcss.com/highlight.js/9.0.0/styles/default.min.css&quot;">http://cdn.bootcss.com/highlight.js/9.0.0/styles/default.min.css&quot;</a> rel=&ldquo;stylesheet&rdquo;&gt;
+《script&gt;hljs.initHighlightingOnLoad();《/script&gt;</pre></code></p>
 
 <p>这样以后，你就可以写文章的时候，让自己的代码高亮<br />
 格式如下，使用的时候注意把书名号换成英文的
 <pre><code>《pre》《code》需要高亮的东西《/pre》《code》</pre></code></p>
 
-<ol>
-<li><p>然后就可以开始写博文啦<br />
+<p>8,<br />
+然后就可以开始写博文啦<br />
 使用Hugo新建名为 first.md 的markdown文档,放到 post 目录<br />
 以后写文章也是要在post目录中新建
 <pre><code>$ hugo new post/first.md</pre></code>
 编辑first.md<br />
 以下内容为一般模版：<pre><code>
 +++
-title         = &ldquo;文章标题&rdquo;
+title        = &ldquo;文章标题&rdquo;
 tags         = [&ldquo;标签1&rdquo;, &ldquo;标签2&rdquo;]
-categories    = [&ldquo;分类1&rdquo;,&ldquo;分类2&rdquo;]
-date        = &ldquo;2015-01-01&rdquo;
+categories   = [&ldquo;分类1&rdquo;,&ldquo;分类2&rdquo;]
+date         = &ldquo;2016-04-24&rdquo;
 +++
-正文，你好 Hugo ！</pre><code></p></li>
+正文，你好 Hugo ！</pre><code></p>
 
-<li><p>最后一步是blog成功的关键：部署！<br />
+<p>9,<br />
+最后一步是blog成功的关键：部署！<br />
 也就是把相关内容push到github上面去<br />
-首先在blog目录下部署，通过命令来生成 public 目录，然后将public部署到服务器，同时设置了URL</p></li>
-</ol>
+首先在blog目录下部署，通过命令来生成 public 目录，然后将public部署到服务器，同时设置了URL</p>
 
 <p><pre><code>$ hugo &ndash;theme= &ndash;baseUrl=hugo-multi-bootswatch &ldquo;<a href="http://ljxxcaijing.github.io/&quot;">http://ljxxcaijing.github.io/&quot;</a></pre></code>
 然后把public目录push到github上面</p>
@@ -295,16 +291,14 @@ $ git push -u origin master // 推送到远程仓库</pre></code></p>
 <a href="https://ljxxcaijing.github.io">https://ljxxcaijing.github.io</a>
 看到自己的blog啦</p>
 
-<ol>
-<li>
+<p>10,<br />
 之后如果写了新的文章，可以在blog目录下通过以下步骤更新
 <pre><code>$ hugo // 更新 public
 $ cd public
 $ git add -A
 $ git commit -m &ldquo;文章更新&rdquo;
 $ git push -u origin master</pre></code><br />
-不过不要着急，过两分钟再去刷新你的blog，虽然Hugo很快，但还是做不到几秒钟就能完成部署和更新<br /></li>
-</ol>
+不过不要着急，过两分钟再去刷新你的blog，虽然Hugo很快，但还是做不到几秒钟就能完成部署和更新。</p>
 
 <h1 id="参考教程:e8fb9c67eba912c72729806db31eaa1b">参考教程：</h1>
 
@@ -319,6 +313,8 @@ $ git push -u origin master</pre></code><br />
 <p>感谢我的爸爸妈妈，感谢木犀。<br />
 感谢诗柔帮我解决git有关问题，感谢朱组长慧眼发现我的仓库命名出错。<br />
 谢谢大家！ 鞠躬！ 撒花！</p>
+
+<p>一切都还在摸索当中，希望我的blog能越来越好看！</p>
 
         </article>
   </div>
@@ -384,7 +380,7 @@ $ git push -u origin master</pre></code><br />
 
 </aside>
 
-<meta itemprop="wordCount" content="275">
+<meta itemprop="wordCount" content="291">
 <meta itemprop="datePublished" content="2016-04-24">
 <meta itemprop="url" content="http://ljxxcaijing.github.io/post/first/">
 
