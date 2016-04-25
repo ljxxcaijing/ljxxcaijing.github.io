@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Never But Life</title>
+    <link>http://ljxxcaijing.github.io/tags/blog/</link>
+    <description>Recent content in Blog on Never But Life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 22 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://ljxxcaijing.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+      
+        
+          <item>
+            <title>Hugo搭建github的博客简易教程</title>
+            <link>http://ljxxcaijing.github.io/post/first/</link>
+            <pubDate>Fri, 22 Apr 2016 00:00:00 +0000</pubDate>
+            
+            <guid>http://ljxxcaijing.github.io/post/first/</guid>
+            <description>
+
+&lt;p&gt;Hello, Hugo!&lt;/p&gt;
+
+&lt;p&gt;历经一个星期，博客终于出来了。
+首先撒花～&lt;/p&gt;
+
+&lt;p&gt;用Hugo搭blog步骤如下：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;在Github上建一个仓库，并命名为“用户名.github.io”&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Mac下直接使用 Homebrew 安装Hugo,直接在终端里面输入
+&lt;pre&gt;&lt;code&gt;$ brew new Hugo&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;使用Hugo建立网站,在我们想要搭建博客的目录下创建新的 hugo 站点
+&lt;pre&gt;&lt;code&gt;$ mkdir blog&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ hugo new site blog/&lt;/code&gt;&lt;/pre&gt;
+这样就把Hugo的相关文件建立在了blog文件夹中&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;进入blog文件夹，看一下其中的内容
+&lt;pre&gt;&lt;code&gt;$ cd blog&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ ls&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;可以看到
+ &lt;pre&gt;&lt;code&gt;
+ ▸ archetypes/
+ ▸ content/
+ ▸ layouts/
+ ▸ static/
+   config.toml&lt;/pre&gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;其中config.toml是网站的配置文件，包括baseurl, title, copyright等等网站参数。
+打开config.toml
+修改其中的baseurl
+&lt;pre&gt;&lt;code&gt; baseurl = &amp;ldquo;&lt;a href=&#34;http://ljxxcaijing.github.io&amp;quot;&#34;&gt;http://ljxxcaijing.github.io&amp;quot;&lt;/a&gt; &lt;/pre&gt;&lt;/code&gt;
+这样就可以连接到github上面的页面
+一会儿再做相关的完善&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;6.然后开始配置主题
+Hugo有很多模版，我选择的模版是 hugo-multi-bootswatch
+先创建一个themes的文件夹，然后把主题有关的文件clone进去
+&lt;pre&gt;&lt;code&gt;
+$ cd blog
+$ mkdir themes
+$ cd themes
+$ git clone &lt;a href=&#34;https://github.com/mpas/hugo-multi-bootswatch.git&#34;&gt;https://github.com/mpas/hugo-multi-bootswatch.git&lt;/a&gt; &amp;ndash;depth=1&lt;/pre&gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;7.主题下载好了以后，再打开config.toml完善配置
+例如：&lt;/p&gt;
+
+&lt;p&gt;&lt;pre&gt;&lt;code&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;基本信息:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;基本信息&lt;/h1&gt;
+
+&lt;p&gt;baseurl = &amp;ldquo;&lt;a href=&#34;http://ihuangmx.github.io&amp;quot;&#34;&gt;http://ihuangmx.github.io&amp;quot;&lt;/a&gt;
+languageCode = &amp;ldquo;en-us&amp;rdquo;
+title = &amp;ldquo;Never But Life&amp;rdquo;
+theme =&amp;ldquo;hugo-multi-bootswatch&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;[params]&lt;/p&gt;
+
+&lt;p&gt;github = &amp;ldquo;&lt;a href=&#34;https://github.com/ihuangmx&amp;quot;&#34;&gt;https://github.com/ihuangmx&amp;quot;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[params.strings]&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# 导航标题
+home_navbar_link = &amp;quot;首页&amp;quot;
+blog_navbar_link = &amp;quot;文章&amp;quot;
+
+date_format = &#39;2006.01.02&#39;
+posts_list_header = &amp;quot;文章列表&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;[params.theme]&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;inverse = true
+name = &amp;quot;flatly&amp;quot;&amp;lt;/pre&amp;gt;&amp;lt;/code&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;主题选择好以后，我们可以先在本地运行一下blog，看一下效果。
+在blog目录中运行
+&lt;pre&gt;&lt;code&gt;$ hugo server &amp;ndash;theme=hugo-multi-bootswatch &amp;ndash;buildDrafts&lt;/pre&gt;&lt;/code&gt;
+然后根据提示，在浏览器中打开&lt;pre&gt;&lt;code&gt; &lt;a href=&#34;http://localhost:1313&#34;&gt;http://localhost:1313&lt;/a&gt; &lt;/pre&gt;&lt;/code&gt;
+即可预览blog的效果&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;一个blog还需要一些特殊的功能，首先就是代码高亮
+我选择安装一个js库：highlightjs插件
+使用npm下载安装highlightjs
+&lt;pre&gt;&lt;/code&gt;$ npm install highlight.js&lt;/pre&gt;&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;然后打开layouts/partials/header_includes.html
+加上以下代码：
+&lt;pre&gt;&lt;code&gt;
+&lt;script src=&#34;https://yandex.st/highlightjs/8.0/highlight.min.js&#34;&gt;&lt;/script&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://yandex.st/highlightjs/8.0/styles/default.min.css&#34;&gt;
+&lt;script&gt;hljs.initHighlightingOnLoad();&lt;/script&gt;
+&lt;/pre&gt;&lt;/code&gt;
+这样以后，你就可以写博客的时候，让自己的代码高亮
+&lt;pre&gt;&lt;code&gt;&lt;pre&gt;&lt;code&gt;需要高亮的东西&lt;/pre&gt;&lt;code&gt;&lt;/pre&gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;9.然后就可以开始写博文啦，使用Hugo新建名为 first.md 的markdown文档,放到 post 目录
+&lt;pre&gt;&lt;code&gt;$ hugo new post/first.md&lt;/pre&gt;&lt;/code&gt;
+编辑first.md
+以下内容为一般模版：&lt;/p&gt;
+
+&lt;p&gt;&lt;pre&gt;&lt;code&gt;
++++
+title         = &amp;ldquo;文章标题&amp;rdquo;
+tags         = [&amp;ldquo;标签1&amp;rdquo;, &amp;ldquo;标签2&amp;rdquo;]
+categories    = [&amp;ldquo;分类1&amp;rdquo;,&amp;ldquo;分类2&amp;rdquo;]
+date        = &amp;ldquo;2015-01-01&amp;rdquo;
++++
+正文，你好 Hugo ！
+&lt;/pre&gt;&lt;code&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;最后一步是blog成功的关键：部署！
+也就是把相关内容push到github上面去
+首先在blog目录下部署，通过命令来生成 public 目录，然后将 public 部署到服务器，同时设置了URL
+&lt;pre&gt;&lt;code&gt;$ hugo &amp;ndash;theme= &amp;ndash;baseUrl=hugo-multi-bootswatch &amp;ldquo;&lt;a href=&#34;http://ljxxcaijing.github.io/&amp;quot;&#34;&gt;http://ljxxcaijing.github.io/&amp;quot;&lt;/a&gt;&lt;/pre&gt;&lt;/code&gt;
+然后把public目录push到github上面
+&lt;pre&gt;&lt;code&gt;
+$ cd public
+$ git init  // 对 public 开始进行 git 管理
+$ git remote add origin &lt;a href=&#34;https://github.com/ljxxcaijing/ljxxcaijing.github.io.git&#34;&gt;https://github.com/ljxxcaijing/ljxxcaijing.github.io.git&lt;/a&gt; // 添加远程仓库
+$ git remote rm origin //如果你手抖不小心添加错了仓库，可以输入这一行来删除原来的仓库，添加正确的仓库
+$ git add -A  // 跟踪所有文件
+$ git commit -m &amp;ldquo;first commit&amp;rdquo; // 提交
+$ git push -u origin master // 推送到远程仓库
+&lt;/pre&gt;&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;public的文件成功push到Github上以后，你就可以访问
+&lt;a href=&#34;https://ljxxcaijing.github.io&#34;&gt;https://ljxxcaijing.github.io&lt;/a&gt;
+看到自己的blog啦&lt;/p&gt;
+
+&lt;p&gt;参考教程：
+1.&lt;a href=&#34;http://www.gohugo.org/&#34;&gt;Hugo中文文档&lt;/a&gt;
+2.&lt;a href=&#34;http://www.jianshu.com/p/b66754c0baa6&#34;&gt;使用 Hugo + Github 搭建个人博客
+&lt;/a&gt;
+3.&lt;a href=&#34;http://nanshu.wang/post/2015-01-31/&#34;&gt;Hugo静态网站生成器中文教程&lt;/a&gt;&lt;/p&gt;
+</description>
+          </item>
+        
+      
+    
+  </channel>
+</rss>
