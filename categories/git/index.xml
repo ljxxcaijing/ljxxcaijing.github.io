@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git on Never But Life</title>
+    <link>http://ljxxcaijing.github.io/categories/git/</link>
+    <description>Recent content in Git on Never But Life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 May 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://ljxxcaijing.github.io/categories/git/index.xml" rel="self" type="application/rss+xml" />
+    
+      
+        
+          <item>
+            <title>git：简易实用功能</title>
+            <link>http://ljxxcaijing.github.io/post/git/</link>
+            <pubDate>Thu, 12 May 2016 00:00:00 +0000</pubDate>
+            
+            <guid>http://ljxxcaijing.github.io/post/git/</guid>
+            <description>
+
+&lt;h1 id=&#34;git最简单最实用的教程:1c1ef82aae62aeea8eedcb5f455b129b&#34;&gt;git最简单最实用的教程!&lt;/h1&gt;
+
+&lt;p&gt;1.github上新建一个仓库
+2.本地新建一个同名的文件夹
+3.在文件夹里面写你想推到github上的代码文件
+4.对 public 开始进行 git 管理
+&lt;pre&gt;&lt;code&gt;$ git init&lt;/pre&gt;&lt;/code&gt;&lt;br /&gt;
+5.添加远程仓库
+&lt;pre&gt;&lt;code&gt;$ git remote add origin
+&lt;a href=&#34;https://github.com/用户名/仓库名.git&#34;&gt;https://github.com/用户名/仓库名.git&lt;/a&gt; &lt;/pre&gt;&lt;/code&gt;
+如果你手抖不小心添加错了仓库，可以输入这一行来删除原来的仓库，再添加正确的仓库
+&lt;pre&gt;&lt;code&gt;$ git remote rm origin &lt;/pre&gt;&lt;/code&gt;
+6.跟踪所有文件
+&lt;pre&gt;&lt;code&gt;$ git add . &lt;/pre&gt;&lt;/code&gt;
+7.提交并加备注
+&lt;pre&gt;&lt;code&gt;$ git commit -m “first commit” &lt;/pre&gt;&lt;/code&gt;
+8.推送到远程仓库
+&lt;pre&gt;&lt;code&gt;$ git push -u origin master  &lt;/pre&gt;&lt;/code&gt;&lt;/p&gt;
+</description>
+          </item>
+        
+      
+    
+  </channel>
+</rss>
