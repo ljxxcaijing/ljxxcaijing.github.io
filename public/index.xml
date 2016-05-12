@@ -68,17 +68,14 @@
     &lt;link href=&#39;http://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:300&#39; rel=&#39;stylesheet&#39; type=&#39;text/css&#39;&gt;
 &lt;link rel=&#34;stylesheet&#34; href=&#34;/static/css/style.css&#34;&gt;
 
-&lt;script src=&#34;https://yandex.st/highlightjs/8.0/highlight.min.js&#34;&gt;&lt;/script&gt;
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://yandex.st/highlightjs/8.0/styles/default.min.css&#34;&gt;
-&lt;script&gt;hljs.initHighlightingOnLoad();&lt;/script&gt;
-
-&lt;script src=&#34;https://yandex.st/highlightjs/8.0/highlight.min.js&#34;&gt;&lt;/script&gt;
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://yandex.st/highlightjs/8.0/styles/default.min.css&#34;&gt;
+&lt;script src=&#34;http://cdn.bootcss.com/highlight.js/9.0.0/highlight.min.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;http://cdn.bootcss.com/highlight.js/9.0.0/styles/default.min.css&#34; rel=&#34;stylesheet&#34;&gt;
 &lt;script&gt;hljs.initHighlightingOnLoad();&lt;/script&gt;
 
 &lt;link rel=&#34;stylesheet&#34; href=&#34;/path/to/styles/default.css&#34;&gt;
 &lt;script src=&#34;/path/to/highlight.pack.js&#34;&gt;&lt;/script&gt;
 &lt;script&gt;hljs.initHighlightingOnLoad();&lt;/script&gt;
+
 
     &lt;link rel=&#34;shortcut icon&#34; href=&#34;/favicon.ico&#34; type=&#34;image/x-icon&#34; /&gt;
     &lt;link rel=&#34;apple-touch-icon&#34; href=&#34;/apple-touch-icon.png&#34; /&gt;
