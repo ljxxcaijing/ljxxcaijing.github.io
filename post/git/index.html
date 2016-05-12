@@ -148,14 +148,18 @@
 
 <h1 id="git最简单最实用的教程:1c1ef82aae62aeea8eedcb5f455b129b">git最简单最实用的教程!</h1>
 
-<p>1.github上新建一个仓库
-2.本地新建一个同名的文件夹
-3.在文件夹里面写你想推到github上的代码文件
-4.对 public 开始进行 git 管理
+<h1 id="其实这主要是写给我自己看的-有的时候会忘记一些步骤-然后就一脸懵比-写博客有助于记忆:1c1ef82aae62aeea8eedcb5f455b129b">其实这主要是写给我自己看的，有的时候会忘记一些步骤，然后就一脸懵比，写博客有助于记忆。</h1>
+
+<p>1.github上新建一个仓库</p>
+
+<p>2.本地新建一个同名的文件夹</p>
+
+<p>3.在文件夹里面写你想推到github上的代码文件</p>
+
+<p>4.对 public 开始进行 git 管理
 <pre><code>$ git init</pre></code><br />
 5.添加远程仓库
-<pre><code>$ git remote add origin
-<a href="https://github.com/用户名/仓库名.git">https://github.com/用户名/仓库名.git</a> </pre></code>
+<pre><code>$ git remote add origin <a href="https://github.com/用户名/仓库名.git">https://github.com/用户名/仓库名.git</a> </pre></code>
 如果你手抖不小心添加错了仓库，可以输入这一行来删除原来的仓库，再添加正确的仓库
 <pre><code>$ git remote rm origin </pre></code>
 6.跟踪所有文件
@@ -163,7 +167,11 @@
 7.提交并加备注
 <pre><code>$ git commit -m “first commit” </pre></code>
 8.推送到远程仓库
-<pre><code>$ git push -u origin master  </pre></code></p>
+<pre><code>$ git push -u origin master  </pre></code>
+如果报错，就先pull一下再push试试看
+<pre><code>$ git pull origin master  </pre></code></p>
+
+<p>等待100%出现，成功啦！</p>
 
         </article>
   </div>
@@ -227,7 +235,7 @@
 
 </aside>
 
-<meta itemprop="wordCount" content="44">
+<meta itemprop="wordCount" content="52">
 <meta itemprop="datePublished" content="2016-05-12">
 <meta itemprop="url" content="http://ljxxcaijing.github.io/post/git/">
 
