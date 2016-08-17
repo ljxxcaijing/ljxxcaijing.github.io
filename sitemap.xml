@@ -3,8 +3,13 @@
   
   <url>
     <loc>http://ljxxcaijing.github.io/</loc>
-    <lastmod>2016-06-03T00:00:00+00:00</lastmod>
+    <lastmod>2016-08-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ljxxcaijing.github.io/post/flask/</loc>
+    <lastmod>2016-08-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Feeling on Never But Life</title>
+    <link>http://ljxxcaijing.github.io/tags/feeling/</link>
+    <description>Recent content in Feeling on Never But Life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 17 Aug 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://ljxxcaijing.github.io/tags/feeling/index.xml" rel="self" type="application/rss+xml" />
+    
+      
+        
+          <item>
+            <title>使用Flask的一些心得</title>
+            <link>http://ljxxcaijing.github.io/post/flask/</link>
+            <pubDate>Wed, 17 Aug 2016 00:00:00 +0000</pubDate>
+            
+            <guid>http://ljxxcaijing.github.io/post/flask/</guid>
+            <description>
+
+&lt;h1 id=&#34;使用flask的一些心得:c35eab89814973a38e39d2a98101f8ad&#34;&gt;使用Flask的一些心得&lt;/h1&gt;
+
+&lt;h1 id=&#34;学习flask一段时间了-决定总结一下自己觉得很重要的点:c35eab89814973a38e39d2a98101f8ad&#34;&gt;学习Flask一段时间了，决定总结一下自己觉得很重要的点。&lt;/h1&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;最基础的项目骨架
+&lt;pre&gt;&lt;code&gt;
+$ tree ././
+├── README.md
+├── app/
+│   ├── &lt;strong&gt;init&lt;/strong&gt;.py
+│   ├── models.py
+│   ├── static/
+│   ├── templates/
+│   └── views.py
+├── config.py
+├── manage.py
+├── requirements.txt
+&lt;/pre&gt;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;app为项目核心源码&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;static为项目静态文件&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;templates为项目HTML模板&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;2.
+在view.py中编写主逻辑
+views.py用于便携Blog的主逻辑&lt;/p&gt;
+
+&lt;p&gt;3.
+在template／base.html和base.css中编写主页框架和样式&lt;/p&gt;
+
+&lt;p&gt;参考文章：
+&lt;a href=&#34;http://www.jianshu.com/p/70111d3821a5&#34;&gt;Flask开发博客(上)&lt;/a&gt;&lt;/p&gt;
+</description>
+          </item>
+        
+      
+    
+  </channel>
+</rss>
