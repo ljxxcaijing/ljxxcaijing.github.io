@@ -139,13 +139,26 @@
     
         <article class="post">
     <header>
-      <h2><a href="http://ljxxcaijing.github.io/post/flask/">使用Flask的一些心得 </a> </h2>
-      <div class="post-meta">Wed, Aug 17, 2016 -  Read in 1 Min </div>
+      <h2><a href="http://ljxxcaijing.github.io/post/zhengze/">Python正则表达式与爬虫 </a> </h2>
+      <div class="post-meta">Sun, Nov 20, 2016 -  Read in 1 Min </div>
     </header>
 
-    使用Flask的一些心得 学习Flask一段时间了，决定总结一下自己觉得很重要的点。 最基础的项目骨架 $ tree ././ ├── README.md ├── app/ │ ├── init.py │ ├── models.py │ ├── static/ │ ├── templates/ │ └── views.py ├── config.py ├── manage.py ├── requirements.txt app为项目核心源码 static为项目静态文件 templates为项目HTML模板 2. 在view.py中编写主逻辑 views.py用于便携Blog的主逻辑 3. 在template／base.html和base.css中编写主页框架和样式 参考文章： Flask开发博客(上)
+    Python正则表达式总结 当初学Python的时候，看完了基础部分就去看Flask，所以回过头来看正则表达式，其实是因为爬虫应用中，要用正则表达式来做选择和匹配。所以完整的看了正则表达式。 总结了一些常用的知识点。 正则表达式： 闭包操作符 ｜ 任意多个 . 任意单个 Python正则表达式： 常用is 和 is not import re 导入有关正则的re模块 compile() 编译正则表达式 group() 匹配对象，没有子组返回空元组 groups() 匹配对象，没有自组返回全部匹配对象 match() 匹配字符串，结合group()显示成功的匹配 search() 在一个字符串中查找一个模式 匹配了返回对象，否则返回None findall() 找到每个出现的匹配部分 sub() 搜索和替换 subn() 替换 split() 分割 EXAMPLE: 使用re.match查找 – 匹配开始 &gt;&gt;&gt; re.match(r'dog', 'dog cat dog') &lt;_sre.SRE_Match object at 0xb743e720&lt; &gt;&gt;&gt; match = re.match(r'dog', 'dog cat dog') &gt;&gt;&gt; match.group(0) 'dog' 使用re.search查找 – 匹配任意位置 search(r'cat', 'dog cat dog') &gt;&gt;&gt; match.group(0) 'cat' &gt;&gt;&gt;
     <footer>
-        <a href='http://ljxxcaijing.github.io/post/flask/'><nobr>Read more →</nobr></a>
+        <a href='http://ljxxcaijing.github.io/post/zhengze/'><nobr>Read more →</nobr></a>
+    </footer>
+</article>
+
+    
+        <article class="post">
+    <header>
+      <h2><a href="http://ljxxcaijing.github.io/post/c&#43;&#43;/">初识c&#43;&#43; </a> </h2>
+      <div class="post-meta">Tue, Nov 1, 2016 -  Read in 1 Min </div>
+    </header>
+
+    在Mac上写C++ 下午有个C++的选修课要结课了，其实选修课能学到的很少，不过还是能总结一些C和C++的关系的。 其实这篇基本是在以前的一篇基础上修改的。 先在Mac上就简单弄一下吧。 1.现有的软件：Sublime text 2、Vim 2.在终端里面安装gcc 3.开始编译吧！ $ vim //进入vim :new hello.c //在vim中新建hello.c文件 i //打开vim后先输入i进入编辑状态 开始Hello World吧！ #include //一定是要iostream，不能是iostream.h int main() { cout &lt;&lt; &ldquo;Hello World&rdquo;; //输出Hello World return 0; } ESC键 //按ESC键退出编辑状态 :wq //先输入“:”，再输入“w”表示保存，最后输入“q”表示退出 $ g++ Hello.c //注意是g++，而不是gcc，编译Hello.c文件，会生成可执行文件“a.out” $ ./a.out //执行a.out 然后就出现了“Hello World!” 未完待续………
+    <footer>
+        <a href='http://ljxxcaijing.github.io/post/c&#43;&#43;/'><nobr>Read more →</nobr></a>
     </footer>
 </article>
 
@@ -237,19 +250,6 @@
     这是使用Hugo创建的站点中的第一篇文章。
     <footer>
         <a href='http://ljxxcaijing.github.io/welcome/'><nobr>Read more →</nobr></a>
-    </footer>
-</article>
-
-    
-        <article class="post">
-    <header>
-      <h2><a href="http://ljxxcaijing.github.io/post/xxx/"> </a> </h2>
-      <div class="post-meta">Mon, Jan 1, 0001 -  Read in 1 Min </div>
-    </header>
-
-    hihao
-    <footer>
-        <a href='http://ljxxcaijing.github.io/post/xxx/'><nobr>Read more →</nobr></a>
     </footer>
 </article>
 

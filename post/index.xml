@@ -6,55 +6,156 @@
     <description>Recent content in Posts on Never But Life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Aug 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 20 Nov 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://ljxxcaijing.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
       
         
           <item>
-            <title>使用Flask的一些心得</title>
-            <link>http://ljxxcaijing.github.io/post/flask/</link>
-            <pubDate>Wed, 17 Aug 2016 00:00:00 +0000</pubDate>
+            <title>Python正则表达式与爬虫</title>
+            <link>http://ljxxcaijing.github.io/post/zhengze/</link>
+            <pubDate>Sun, 20 Nov 2016 00:00:00 +0000</pubDate>
             
-            <guid>http://ljxxcaijing.github.io/post/flask/</guid>
+            <guid>http://ljxxcaijing.github.io/post/zhengze/</guid>
             <description>
 
-&lt;h1 id=&#34;使用flask的一些心得:c35eab89814973a38e39d2a98101f8ad&#34;&gt;使用Flask的一些心得&lt;/h1&gt;
+&lt;h1 id=&#34;python正则表达式总结:ef896b9194fe4f3a23ec79d18144d994&#34;&gt;Python正则表达式总结&lt;/h1&gt;
 
-&lt;h1 id=&#34;学习flask一段时间了-决定总结一下自己觉得很重要的点:c35eab89814973a38e39d2a98101f8ad&#34;&gt;学习Flask一段时间了，决定总结一下自己觉得很重要的点。&lt;/h1&gt;
+&lt;p&gt;当初学Python的时候，看完了基础部分就去看Flask，所以回过头来看正则表达式，其实是因为爬虫应用中，要用正则表达式来做选择和匹配。所以完整的看了正则表达式。&lt;/p&gt;
 
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;最基础的项目骨架
-&lt;pre&gt;&lt;code&gt;
-$ tree ././
-├── README.md
-├── app/
-│   ├── &lt;strong&gt;init&lt;/strong&gt;.py
-│   ├── models.py
-│   ├── static/
-│   ├── templates/
-│   └── views.py
-├── config.py
-├── manage.py
-├── requirements.txt
-&lt;/pre&gt;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;总结了一些常用的知识点。&lt;/p&gt;
 
-&lt;li&gt;&lt;p&gt;app为项目核心源码&lt;/p&gt;&lt;/li&gt;
+&lt;h1 id=&#34;正则表达式:ef896b9194fe4f3a23ec79d18144d994&#34;&gt;正则表达式：&lt;/h1&gt;
 
-&lt;li&gt;&lt;p&gt;static为项目静态文件&lt;/p&gt;&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;闭包操作符&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;templates为项目HTML模板&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
+&lt;li&gt;&lt;p&gt;｜  任意多个&lt;/p&gt;&lt;/li&gt;
 
-&lt;p&gt;2.
-在view.py中编写主逻辑
-views.py用于便携Blog的主逻辑&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;.   任意单个&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;3.
-在template／base.html和base.css中编写主页框架和样式&lt;/p&gt;
+&lt;h1 id=&#34;python正则表达式:ef896b9194fe4f3a23ec79d18144d994&#34;&gt;Python正则表达式：&lt;/h1&gt;
 
-&lt;p&gt;参考文章：
-&lt;a href=&#34;http://www.jianshu.com/p/70111d3821a5&#34;&gt;Flask开发博客(上)&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;常用is 和 is not&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;import re 导入有关正则的re模块&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;compile() 编译正则表达式&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;group() 匹配对象，没有子组返回空元组&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;groups() 匹配对象，没有自组返回全部匹配对象&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;match() 匹配字符串，结合group()显示成功的匹配&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;search() 在一个字符串中查找一个模式
+匹配了返回对象，否则返回None&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;findall() 找到每个出现的匹配部分&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;sub() 搜索和替换&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;subn() 替换&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;split() 分割&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;example:ef896b9194fe4f3a23ec79d18144d994&#34;&gt;EXAMPLE:&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;使用re.match查找 – 匹配开始&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; re.match(r&#39;dog&#39;, &#39;dog cat dog&#39;)
+&amp;lt;_sre.SRE_Match object at 0xb743e720&amp;lt;
+&amp;gt;&amp;gt;&amp;gt; match = re.match(r&#39;dog&#39;, &#39;dog cat dog&#39;)
+&amp;gt;&amp;gt;&amp;gt; match.group(0)
+&#39;dog&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;使用re.search查找 – 匹配任意位置&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;search(r&#39;cat&#39;, &#39;dog cat dog&#39;)
+&amp;gt;&amp;gt;&amp;gt; match.group(0)
+&#39;cat&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; match = re.search(r&#39;dog&#39;, &#39;dog cat dog&#39;)
+&amp;gt;&amp;gt;&amp;gt; match.group(0)
+&#39;dog&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;使用 re.findall – 所有匹配对象(多)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;[&#39;dog&#39;, &#39;dog&#39;]
+&amp;gt;&amp;gt;&amp;gt; re.findall(r&#39;cat&#39;, &#39;dog cat dog&#39;)
+[&#39;cat&#39;]
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>初识c&#43;&#43;</title>
+            <link>http://ljxxcaijing.github.io/post/c&#43;&#43;/</link>
+            <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
+            
+            <guid>http://ljxxcaijing.github.io/post/c&#43;&#43;/</guid>
+            <description>
+
+&lt;h1 id=&#34;在mac上写c:7c4c182d751fc2e04b05feaeb26136e9&#34;&gt;在Mac上写C++&lt;/h1&gt;
+
+&lt;p&gt;下午有个C++的选修课要结课了，其实选修课能学到的很少，不过还是能总结一些C和C++的关系的。
+其实这篇基本是在以前的一篇基础上修改的。&lt;/p&gt;
+
+&lt;p&gt;先在Mac上就简单弄一下吧。&lt;/p&gt;
+
+&lt;p&gt;1.现有的软件：Sublime text 2、Vim&lt;/p&gt;
+
+&lt;p&gt;2.在终端里面安装gcc&lt;/p&gt;
+
+&lt;p&gt;3.开始编译吧！&lt;/p&gt;
+
+&lt;p&gt;&lt;pre&gt;&lt;code&gt; $ vim &lt;/pre&gt;&lt;/code&gt;     //进入vim&lt;/p&gt;
+
+&lt;p&gt;&lt;pre&gt;&lt;code&gt; :new hello.c &lt;/pre&gt;&lt;/code&gt;       //在vim中新建hello.c文件&lt;/p&gt;
+
+&lt;p&gt;&lt;pre&gt;&lt;code&gt; i &lt;/pre&gt;&lt;/code&gt;                   //打开vim后先输入i进入编辑状态&lt;/p&gt;
+
+&lt;p&gt;开始Hello World吧！&lt;/p&gt;
+
+&lt;p&gt;&lt;pre&gt;&lt;code&gt;#include &lt;iostream&gt;  //一定是要iostream，不能是iostream.h&lt;/p&gt;
+
+&lt;p&gt;int main()&lt;/p&gt;
+
+&lt;p&gt;{
+    cout &amp;lt;&amp;lt; &amp;ldquo;Hello World&amp;rdquo;;    //输出Hello World
+    return 0;&lt;/p&gt;
+
+&lt;p&gt;}&lt;/pre&gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;pre&gt;&lt;code&gt; ESC键 &lt;/pre&gt;&lt;/code&gt;             //按ESC键退出编辑状态&lt;/p&gt;
+
+&lt;p&gt;&lt;pre&gt;&lt;code&gt;:wq  &lt;/pre&gt;&lt;/code&gt;              //先输入“:”，再输入“w”表示保存，最后输入“q”表示退出&lt;/p&gt;
+
+&lt;p&gt;&lt;pre&gt;&lt;code&gt; $ g++ Hello.c &lt;/pre&gt;&lt;/code&gt;     //注意是g++，而不是gcc，编译Hello.c文件，会生成可执行文件“a.out”&lt;/p&gt;
+
+&lt;p&gt;&lt;pre&gt;&lt;code&gt; $ ./a.out &lt;/pre&gt;&lt;/code&gt;         //执行a.out&lt;/p&gt;
+
+&lt;p&gt;然后就出现了“Hello World!”&lt;/p&gt;
+
+&lt;p&gt;未完待续………&lt;/p&gt;
 </description>
           </item>
         
@@ -375,21 +476,6 @@ $ git push -u origin master&lt;/pre&gt;&lt;/code&gt;&lt;br /&gt;
 谢谢大家！ 鞠躬！ 撒花！&lt;/p&gt;
 
 &lt;p&gt;一切都还在摸索当中，希望我的blog能越来越好看！&lt;/p&gt;
-</description>
-          </item>
-        
-      
-    
-      
-        
-          <item>
-            <title></title>
-            <link>http://ljxxcaijing.github.io/post/xxx/</link>
-            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-            
-            <guid>http://ljxxcaijing.github.io/post/xxx/</guid>
-            <description>&lt;pre&gt;&lt;code&gt;hihao
-&lt;/code&gt;&lt;/pre&gt;
 </description>
           </item>
         

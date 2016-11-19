@@ -6,8 +6,67 @@
     <description>Recent content in C on Never But Life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Jun 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Nov 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://ljxxcaijing.github.io/tags/c/index.xml" rel="self" type="application/rss+xml" />
+    
+      
+        
+          <item>
+            <title>初识c&#43;&#43;</title>
+            <link>http://ljxxcaijing.github.io/post/c&#43;&#43;/</link>
+            <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
+            
+            <guid>http://ljxxcaijing.github.io/post/c&#43;&#43;/</guid>
+            <description>
+
+&lt;h1 id=&#34;在mac上写c:7c4c182d751fc2e04b05feaeb26136e9&#34;&gt;在Mac上写C++&lt;/h1&gt;
+
+&lt;p&gt;下午有个C++的选修课要结课了，其实选修课能学到的很少，不过还是能总结一些C和C++的关系的。
+其实这篇基本是在以前的一篇基础上修改的。&lt;/p&gt;
+
+&lt;p&gt;先在Mac上就简单弄一下吧。&lt;/p&gt;
+
+&lt;p&gt;1.现有的软件：Sublime text 2、Vim&lt;/p&gt;
+
+&lt;p&gt;2.在终端里面安装gcc&lt;/p&gt;
+
+&lt;p&gt;3.开始编译吧！&lt;/p&gt;
+
+&lt;p&gt;&lt;pre&gt;&lt;code&gt; $ vim &lt;/pre&gt;&lt;/code&gt;     //进入vim&lt;/p&gt;
+
+&lt;p&gt;&lt;pre&gt;&lt;code&gt; :new hello.c &lt;/pre&gt;&lt;/code&gt;       //在vim中新建hello.c文件&lt;/p&gt;
+
+&lt;p&gt;&lt;pre&gt;&lt;code&gt; i &lt;/pre&gt;&lt;/code&gt;                   //打开vim后先输入i进入编辑状态&lt;/p&gt;
+
+&lt;p&gt;开始Hello World吧！&lt;/p&gt;
+
+&lt;p&gt;&lt;pre&gt;&lt;code&gt;#include &lt;iostream&gt;  //一定是要iostream，不能是iostream.h&lt;/p&gt;
+
+&lt;p&gt;int main()&lt;/p&gt;
+
+&lt;p&gt;{
+    cout &amp;lt;&amp;lt; &amp;ldquo;Hello World&amp;rdquo;;    //输出Hello World
+    return 0;&lt;/p&gt;
+
+&lt;p&gt;}&lt;/pre&gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;pre&gt;&lt;code&gt; ESC键 &lt;/pre&gt;&lt;/code&gt;             //按ESC键退出编辑状态&lt;/p&gt;
+
+&lt;p&gt;&lt;pre&gt;&lt;code&gt;:wq  &lt;/pre&gt;&lt;/code&gt;              //先输入“:”，再输入“w”表示保存，最后输入“q”表示退出&lt;/p&gt;
+
+&lt;p&gt;&lt;pre&gt;&lt;code&gt; $ g++ Hello.c &lt;/pre&gt;&lt;/code&gt;     //注意是g++，而不是gcc，编译Hello.c文件，会生成可执行文件“a.out”&lt;/p&gt;
+
+&lt;p&gt;&lt;pre&gt;&lt;code&gt; $ ./a.out &lt;/pre&gt;&lt;/code&gt;         //执行a.out&lt;/p&gt;
+
+&lt;p&gt;然后就出现了“Hello World!”&lt;/p&gt;
+
+&lt;p&gt;未完待续………&lt;/p&gt;
+</description>
+          </item>
+        
+      
     
       
         

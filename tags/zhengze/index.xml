@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zhengze on Never But Life</title>
+    <link>http://ljxxcaijing.github.io/tags/zhengze/</link>
+    <description>Recent content in Zhengze on Never But Life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 20 Nov 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://ljxxcaijing.github.io/tags/zhengze/index.xml" rel="self" type="application/rss+xml" />
+    
+      
+        
+          <item>
+            <title>Python正则表达式与爬虫</title>
+            <link>http://ljxxcaijing.github.io/post/zhengze/</link>
+            <pubDate>Sun, 20 Nov 2016 00:00:00 +0000</pubDate>
+            
+            <guid>http://ljxxcaijing.github.io/post/zhengze/</guid>
+            <description>
+
+&lt;h1 id=&#34;python正则表达式总结:ef896b9194fe4f3a23ec79d18144d994&#34;&gt;Python正则表达式总结&lt;/h1&gt;
+
+&lt;p&gt;当初学Python的时候，看完了基础部分就去看Flask，所以回过头来看正则表达式，其实是因为爬虫应用中，要用正则表达式来做选择和匹配。所以完整的看了正则表达式。&lt;/p&gt;
+
+&lt;p&gt;总结了一些常用的知识点。&lt;/p&gt;
+
+&lt;h1 id=&#34;正则表达式:ef896b9194fe4f3a23ec79d18144d994&#34;&gt;正则表达式：&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;闭包操作符&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;｜  任意多个&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;.   任意单个&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;python正则表达式:ef896b9194fe4f3a23ec79d18144d994&#34;&gt;Python正则表达式：&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;常用is 和 is not&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;import re 导入有关正则的re模块&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;compile() 编译正则表达式&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;group() 匹配对象，没有子组返回空元组&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;groups() 匹配对象，没有自组返回全部匹配对象&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;match() 匹配字符串，结合group()显示成功的匹配&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;search() 在一个字符串中查找一个模式
+匹配了返回对象，否则返回None&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;findall() 找到每个出现的匹配部分&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;sub() 搜索和替换&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;subn() 替换&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;split() 分割&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;example:ef896b9194fe4f3a23ec79d18144d994&#34;&gt;EXAMPLE:&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;使用re.match查找 – 匹配开始&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; re.match(r&#39;dog&#39;, &#39;dog cat dog&#39;)
+&amp;lt;_sre.SRE_Match object at 0xb743e720&amp;lt;
+&amp;gt;&amp;gt;&amp;gt; match = re.match(r&#39;dog&#39;, &#39;dog cat dog&#39;)
+&amp;gt;&amp;gt;&amp;gt; match.group(0)
+&#39;dog&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;使用re.search查找 – 匹配任意位置&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;search(r&#39;cat&#39;, &#39;dog cat dog&#39;)
+&amp;gt;&amp;gt;&amp;gt; match.group(0)
+&#39;cat&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; match = re.search(r&#39;dog&#39;, &#39;dog cat dog&#39;)
+&amp;gt;&amp;gt;&amp;gt; match.group(0)
+&#39;dog&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;使用 re.findall – 所有匹配对象(多)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;[&#39;dog&#39;, &#39;dog&#39;]
+&amp;gt;&amp;gt;&amp;gt; re.findall(r&#39;cat&#39;, &#39;dog cat dog&#39;)
+[&#39;cat&#39;]
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+          </item>
+        
+      
+    
+  </channel>
+</rss>
