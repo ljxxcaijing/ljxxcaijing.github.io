@@ -193,7 +193,7 @@
 
     &lt;div&gt;
         &lt;section id=&#34;prev&#34;&gt;
-            &amp;nbsp;&lt;a class=&#34;previous&#34; href=&#34;http://ljxxcaijing.github.io/post/two/&#34;&gt;&lt;i class=&#34;icon-arrow-left&#34;&gt;&lt;/i&gt; two&lt;/a&gt;&lt;br&gt;
+            &amp;nbsp;&lt;a class=&#34;previous&#34; href=&#34;http://ljxxcaijing.github.io/post/first/&#34;&gt;&lt;i class=&#34;icon-arrow-left&#34;&gt;&lt;/i&gt; 10个步骤使用Hugo搭建github博客&lt;/a&gt;&lt;br&gt;
         &lt;/section&gt;&lt;section id=&#34;next&#34;&gt;
             &amp;nbsp;&lt;a class=&#34;next&#34; href=&#34;http://ljxxcaijing.github.io/welcome/&#34;&gt;你好，Hugo &lt;i class=&#34;icon-arrow-right&#34;&gt;&lt;/i&gt;&lt;/a&gt;
         &lt;/section&gt;
