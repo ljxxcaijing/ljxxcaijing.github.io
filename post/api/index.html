@@ -152,53 +152,107 @@
 
 <hr />
 
-<p>最简单的API请求：
-<a href="http://freegeoip.net/json/50.78.253.58">http://freegeoip.net/json/50.78.253.58</a></p>
+<p><strong>最简单的API请求：</strong></p>
+
+<p><a href="http://freegeoip.net/json/50.78.253.58">http://freegeoip.net/json/50.78.253.58</a></p>
 
 <hr />
 
-<p>API和网址访问的区别：
-+ API可以通过HTTP协议下载文件，几乎可以实现所有在网上干的事情
-+ API请求使用非常严谨的语法
-+ API使用JSON或者XML格式表示数据，而不是HTML格式</p>
+<p><strong>API和网址访问的区别：</strong></p>
+
+<ul>
+<li>API可以通过HTTP协议下载文件，几乎可以实现所有在网上干的事情</li>
+<li>API请求使用非常严谨的语法</li>
+<li>API使用JSON或者XML格式表示数据，而不是HTML格式</li>
+</ul>
 
 <hr />
 
-<p>方法：
-1、GET
-“喂，网络服务器，请按照这个网址给我信息。”
+<p><strong>方法：</strong></p>
+
+<p>1、GET</p>
+
+<p>“喂，网络服务器，请按照这个网址给我信息。”
 访问<a href="http://ljxxcaijing.github.io/post/时，就会使用GET方法">http://ljxxcaijing.github.io/post/时，就会使用GET方法</a></p>
 
-<p>2、POST
-“请吧信息保存在你的数据库里。”
+<p>2、POST</p>
+
+<p>“请吧信息保存在你的数据库里。”
 填写表单或者提交信息到网络服务器的后端时，就会使用POST方法</p>
 
-<p>3、PUT
-更新一个对象或者信息</p>
+<p>3、PUT</p>
 
-<p>4、DELETE
-删除一个对象，在公用API里不常用</p>
+<p>更新一个对象或者信息</p>
 
-<hr />
+<p>4、DELETE</p>
 
-<p>验证：
-目的：“限制”用户使用API
-方式：使用令牌token的方式，令牌是通过服务器对用户名和密码的组合处理后生成的</p>
+<p>删除一个对象，在公用API里不常用</p>
 
 <hr />
 
-<p>服务器响应：
-API会返回格式友好的数据，数据格式大部分是JSON和XML。
-XML:
-<user><firstname>Ryan</firstname><lastname>Mitchell</lastname><username>Kludgist</username></user>
-JSON:
-{&ldquo;user&rdquo;:{&ldquo;firstname&rdquo;:&ldquo;Ryan&rdquo;,&ldquo;Lastname&rdquo;:&ldquo;Mitchell&rdquo;,&ldquo;username&rdquo;:&ldquo;Kludgist&rdquo;}}</p>
+<p><strong>验证：</strong></p>
+
+<p>目的：“限制”用户使用API</p>
+
+<p>方式：使用令牌token的方式，令牌是通过服务器对用户名和密码的组合处理后生成的</p>
+
+<p>API key或者OAuth</p>
 
 <hr />
 
-<p>API调用
-URL:需要的数据范围
-查询参数：过滤器或附加请求</p>
+<p><strong>服务器响应：</strong>
+API会返回格式友好的数据，数据格式大部分是JSON和XML。</p>
+
+<p>XML:</p>
+
+<p><code>&lt;user&gt;&lt;firstname&gt;Ryan&lt;/firstname&gt;&lt;lastname&gt;Mitchell&lt;/lastname&gt;&lt;username&gt;Kludgist&lt;/username&gt;&lt;/user&gt;</code></p>
+
+<p>JSON:</p>
+
+<p><code>{&quot;user&quot;:{&quot;firstname&quot;:&quot;Ryan&quot;,&quot;Lastname&quot;:&quot;Mitchell&quot;,&quot;username&quot;:&quot;Kludgist&quot;}}</code></p>
+
+<hr />
+
+<p><strong>API调用</strong></p>
+
+<p>URL:需要的数据范围</p>
+
+<p>查询参数：过滤器或附加请求</p>
+
+<hr />
+
+<p>解析JSON：
+这是一个坑，以后会填的坑……</p>
+
+<hr />
+
+<p>开放的API平台：</p>
+
+<p>国内：</p>
+
+<p>豆瓣API（现在不能用了）
+微博API（<a href="http://open.weibo.com/wiki/%E5%BE%AE%E5%8D%9AAPI）">http://open.weibo.com/wiki/%E5%BE%AE%E5%8D%9AAPI）</a></p>
+
+<p>国外：</p>
+
+<p>google API（<a href="https://console.developers.google.com/apis/api/places_backend/overview?hl=zh-cn）">https://console.developers.google.com/apis/api/places_backend/overview?hl=zh-cn）</a></p>
+
+<p>twitter API（pip install twitter）</p>
+
+<hr />
+
+<p><strong>解析JSON数据</strong></p>
+
+<p>JSON解析库是Python标准库的一部分，</p>
+
+<p>Python把JSON转换成字典，JSON数组转换成列表，JSON字符转换成Python字符串。</p>
+
+<hr />
+
+<p><strong><em>API与网络数据采集的关系</em></strong></p>
+
+<p><code>import json</code>
+未完待续……</p>
 
         </article>
   </div>
@@ -262,7 +316,7 @@ URL:需要的数据范围
 
 </aside>
 
-<meta itemprop="wordCount" content="36">
+<meta itemprop="wordCount" content="55">
 <meta itemprop="datePublished" content="2016-11-26">
 <meta itemprop="url" content="http://ljxxcaijing.github.io/post/api/">
 

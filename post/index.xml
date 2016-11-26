@@ -25,53 +25,107 @@
 
 &lt;hr /&gt;
 
-&lt;p&gt;最简单的API请求：
-&lt;a href=&#34;http://freegeoip.net/json/50.78.253.58&#34;&gt;http://freegeoip.net/json/50.78.253.58&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;最简单的API请求：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://freegeoip.net/json/50.78.253.58&#34;&gt;http://freegeoip.net/json/50.78.253.58&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;API和网址访问的区别：
-+ API可以通过HTTP协议下载文件，几乎可以实现所有在网上干的事情
-+ API请求使用非常严谨的语法
-+ API使用JSON或者XML格式表示数据，而不是HTML格式&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;API和网址访问的区别：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;API可以通过HTTP协议下载文件，几乎可以实现所有在网上干的事情&lt;/li&gt;
+&lt;li&gt;API请求使用非常严谨的语法&lt;/li&gt;
+&lt;li&gt;API使用JSON或者XML格式表示数据，而不是HTML格式&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;方法：
-1、GET
-“喂，网络服务器，请按照这个网址给我信息。”
+&lt;p&gt;&lt;strong&gt;方法：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;1、GET&lt;/p&gt;
+
+&lt;p&gt;“喂，网络服务器，请按照这个网址给我信息。”
 访问&lt;a href=&#34;http://ljxxcaijing.github.io/post/时，就会使用GET方法&#34;&gt;http://ljxxcaijing.github.io/post/时，就会使用GET方法&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;2、POST
-“请吧信息保存在你的数据库里。”
+&lt;p&gt;2、POST&lt;/p&gt;
+
+&lt;p&gt;“请吧信息保存在你的数据库里。”
 填写表单或者提交信息到网络服务器的后端时，就会使用POST方法&lt;/p&gt;
 
-&lt;p&gt;3、PUT
-更新一个对象或者信息&lt;/p&gt;
+&lt;p&gt;3、PUT&lt;/p&gt;
 
-&lt;p&gt;4、DELETE
-删除一个对象，在公用API里不常用&lt;/p&gt;
+&lt;p&gt;更新一个对象或者信息&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;p&gt;4、DELETE&lt;/p&gt;
 
-&lt;p&gt;验证：
-目的：“限制”用户使用API
-方式：使用令牌token的方式，令牌是通过服务器对用户名和密码的组合处理后生成的&lt;/p&gt;
+&lt;p&gt;删除一个对象，在公用API里不常用&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;服务器响应：
-API会返回格式友好的数据，数据格式大部分是JSON和XML。
-XML:
-&lt;user&gt;&lt;firstname&gt;Ryan&lt;/firstname&gt;&lt;lastname&gt;Mitchell&lt;/lastname&gt;&lt;username&gt;Kludgist&lt;/username&gt;&lt;/user&gt;
-JSON:
-{&amp;ldquo;user&amp;rdquo;:{&amp;ldquo;firstname&amp;rdquo;:&amp;ldquo;Ryan&amp;rdquo;,&amp;ldquo;Lastname&amp;rdquo;:&amp;ldquo;Mitchell&amp;rdquo;,&amp;ldquo;username&amp;rdquo;:&amp;ldquo;Kludgist&amp;rdquo;}}&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;验证：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;目的：“限制”用户使用API&lt;/p&gt;
+
+&lt;p&gt;方式：使用令牌token的方式，令牌是通过服务器对用户名和密码的组合处理后生成的&lt;/p&gt;
+
+&lt;p&gt;API key或者OAuth&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;API调用
-URL:需要的数据范围
-查询参数：过滤器或附加请求&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;服务器响应：&lt;/strong&gt;
+API会返回格式友好的数据，数据格式大部分是JSON和XML。&lt;/p&gt;
+
+&lt;p&gt;XML:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;&amp;lt;user&amp;gt;&amp;lt;firstname&amp;gt;Ryan&amp;lt;/firstname&amp;gt;&amp;lt;lastname&amp;gt;Mitchell&amp;lt;/lastname&amp;gt;&amp;lt;username&amp;gt;Kludgist&amp;lt;/username&amp;gt;&amp;lt;/user&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;JSON:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;{&amp;quot;user&amp;quot;:{&amp;quot;firstname&amp;quot;:&amp;quot;Ryan&amp;quot;,&amp;quot;Lastname&amp;quot;:&amp;quot;Mitchell&amp;quot;,&amp;quot;username&amp;quot;:&amp;quot;Kludgist&amp;quot;}}&lt;/code&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;API调用&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;URL:需要的数据范围&lt;/p&gt;
+
+&lt;p&gt;查询参数：过滤器或附加请求&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;解析JSON：
+这是一个坑，以后会填的坑……&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;开放的API平台：&lt;/p&gt;
+
+&lt;p&gt;国内：&lt;/p&gt;
+
+&lt;p&gt;豆瓣API（现在不能用了）
+微博API（&lt;a href=&#34;http://open.weibo.com/wiki/%E5%BE%AE%E5%8D%9AAPI）&#34;&gt;http://open.weibo.com/wiki/%E5%BE%AE%E5%8D%9AAPI）&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;国外：&lt;/p&gt;
+
+&lt;p&gt;google API（&lt;a href=&#34;https://console.developers.google.com/apis/api/places_backend/overview?hl=zh-cn）&#34;&gt;https://console.developers.google.com/apis/api/places_backend/overview?hl=zh-cn）&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;twitter API（pip install twitter）&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;解析JSON数据&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;JSON解析库是Python标准库的一部分，&lt;/p&gt;
+
+&lt;p&gt;Python把JSON转换成字典，JSON数组转换成列表，JSON字符转换成Python字符串。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;API与网络数据采集的关系&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;import json&lt;/code&gt;
+未完待续……&lt;/p&gt;
 </description>
           </item>
         
